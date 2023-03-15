@@ -1,0 +1,22 @@
+#main .content-wrapper-before {
+    height: 100px;
+}
+.collection {
+    border: 0;
+}
+.contact-heading {
+    color: #333;
+    line-height: 42px;
+    font-weight: 600;
+}
+.collection-item p {
+    color: #6c6c6c;
+}
+.collection .collection-item.avatar:not(.circle-clipper) > .circle {
+    background: rgb(227, 240, 245) !important;
+}
+.collection .collection-item.avatar i.circle {
+    color: #0773a5;
+    font-size: 18px;
+    line-height: 42px;
+}

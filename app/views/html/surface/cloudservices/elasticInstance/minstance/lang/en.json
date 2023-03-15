@@ -1,0 +1,74 @@
+{
+    "general_cancel_btn":"Cancel",
+    "general_lbl_retry":"Retry",
+    "general_lbl_yes":"Yes",
+    "general_delete_btn":"Delete",
+
+    "pageTitle": "Manage Instance",
+
+    "minsl_nod_label_0":"No Instance found",
+    "minsl_nod_label_1":"Deploy cloud services right away to see the space fill with your data's.",
+    "minsl_nod_label_2":"Create",
+
+    "minsl_title":"List of Instance",
+    "minsl_datatable_search_label":"Search Instance",
+
+    "minsl_tbl_column_0":"Status",
+    "minsl_tbl_column_1":"Label",
+    "minsl_tbl_column_2":"IP Address",
+    "minsl_tbl_column_3":"Specification",
+    "minsl_tbl_column_4":"DataCenter",
+    "minsl_tbl_column_5":"OS",
+    "minsl_tbl_column_6":"Action",
+
+    "minsl_tbl_vm_status_0":"Provisioning",
+    "minsl_tbl_vm_status_1":"Power Off",
+    "minsl_tbl_vm_status_2":"Running",
+    "minsl_tbl_vm_status_3":"Shutdown OS",
+    "minsl_tbl_vm_status_4":"Power reset",
+    "minsl_tbl_vm_status_5":"Suspend",
+
+    "minsl_tbl_vm_state_msg_0":"Power On Failed",
+    "minsl_tbl_vm_state_msg_1":"Provisioning Failed",
+    "minsl_tbl_vm_state_msg_2":"Provisioning VM",
+    "minsl_tbl_vm_state_msg_3":"Provisioning: Power On",
+    "minsl_tbl_vm_state_msg_4":"Provisioning: Adding Disk",
+    "minsl_tbl_vm_state_msg_5":"Provisioning: Mapping Private IP",
+    "minsl_tbl_vm_state_msg_6":"Provisioning: Power On Failed",
+    "minsl_tbl_vm_state_msg_7":"Provisioning: Additional Storage Failed",
+    "minsl_tbl_vm_state_msg_8":"Provisioning: IP Mapping Failed",
+    "minsl_tbl_vm_state_msg_9":"Please Wait..",
+
+    "minsl_tbl_vm_action_0":"Power On",
+    "minsl_tbl_vm_action_1":"Power Off",
+    "minsl_tbl_vm_action_2":"Shutdown",
+    "minsl_tbl_vm_action_3":"Reset",
+    "minsl_tbl_vm_action_4":"Suspend",
+    "minsl_tbl_vm_action_5":"Delete",
+    "minsl_tbl_vm_action_6":"View Details",
+
+    "minsl_tbl_vm_action_alert_state_0":"Elastic Instance",
+    "minsl_tbl_vm_action_alert_state_1":"Power On Server ?",
+    "minsl_tbl_vm_action_alert_state_2":"Power Off Server ?",
+    "minsl_tbl_vm_action_alert_state_3":"Shutdown Server ?",
+    "minsl_tbl_vm_action_alert_state_4":"Reset Server ?",
+    "minsl_tbl_vm_action_alert_state_5":"Suspend Server ?",
+    "minsl_tbl_vm_action_alert_state_6":"Delete Server ?",
+    "minsl_tbl_vm_action_alert_state_7":"Retry VM Provisioning",
+
+    "minsl_tbl_vm_action_alert_state_1_1":"Are you sure you want to Power On server?",
+    "minsl_tbl_vm_action_alert_state_2_2":"Are you sure you want to Power Off server?",
+    "minsl_tbl_vm_action_alert_state_3_3":"Are you sure you want to Shutdown server?",
+    "minsl_tbl_vm_action_alert_state_4_4":"Are you sure you want to Reset server?",
+    "minsl_tbl_vm_action_alert_state_5_5":"Are you sure you want to Suspend server?",
+    "minsl_tbl_vm_action_alert_state_6_6":"Are you sure you want to Delete server?",
+    "minsl_tbl_vm_action_alert_state_7_7":"Are you sure you want to restart VM provisioning ?",
+
+    "minsl_tbl_message_retry_success":"Retry started successfully!"  ,
+    "minsl_tbl_message_vmdelete_success":"VM deleted successfully!"  ,
+    "minsl_tbl_message_status_up_success":"Status updated successfully!"  ,
+    "minsl_tbl_message_error_occured":"Error Occured! Contact Administrator."  
+
+
+
+}

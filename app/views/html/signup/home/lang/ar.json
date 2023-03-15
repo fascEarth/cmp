@@ -1,0 +1,98 @@
+{
+    "1001":"بطاقة الائتمان غير صالحة!",
+    "603": "كلمة مرور صالحة لمرة واحدة",
+    "604":"انتهت صلاحية رمز كلمة المرور لمرة واحدة.",
+    "601":"فشل التحقق من الرسائل القصيرة",
+
+    "signup_toastr_dobltdoi":"يجب أن يكون تاريخ الميلاد أقل من تاريخ الإصدار.",
+    "signup_toastr_entervercode":"الرجاء إدخال رمز التحقق.",
+    "signup_toastr_enterphone":"الرجاء إدخال رقم الهاتف المحمول.",
+    "signup_toastr_limit9char":"الرجاء إدخال ما لا يزيد عن 9 أحرف",
+    "signup_toastr_mobcode":"الرجاء إدخال رمز الهاتف المحمول.",
+    "signup_toastr_mobareg":"رقم الهاتف الجوال مسجل بالفعل.",
+
+    "signup_toastr_selAcity":"حدد أي مدينة",
+    "signup_toastr_selAcountry":"حدد أي بلد",
+    "signup_toastr_selApoid":"حدد أي معرف إثبات",
+    "signup_toastr_selApouse":"حدد أي غرض من الاستخدام",
+    "signup_toastr_selAindustry":"حدد أي صناعة",
+    "signup_toastr_selAdataclassifi":"حدد أي تصنيف بيانات", 
+    "signup_toastr_selAnationality":"اختر الجنسية",
+    "signup_toastr_selectAny":"حدد أي",
+
+    "signup_toastr_emailversuccess":"تم التحقق من البريد الإلكتروني بنجاح!",
+    "signup_toastr_emailcodesentsuccess":"تم إرسال رمز البريد الإلكتروني بنجاح!",
+    "signup_toastr_smsverifysuccess":"تم التحقق من الرسائل القصيرة بنجاح!",
+    "signup_toastr_smscodesentsuccess":"تم إرسال رمز SMS بنجاح!",    
+
+    "tab_general_next":"التالي",
+    "tab_general_back":"خلف",
+    "tab_general_finish":"ينهي",
+
+    "tab_title_accreate":"إنشاء حساب",
+    "tab_title_contvalid":"التحقق من صحة الاتصال",
+    "tab_title_persorginfo":"معلومات شخصية / مؤسسية",
+    "tab_title_payminfo":"طرق الدفع",
+    "tab_title_sbt":"يُقدِّم",
+
+    "tab_contvalid_primary_title":"يرجى تأكيد عنوان بريدك الإلكتروني ورقم هاتفك.",
+    "tab_contvalid_secondary_title":"لقد أرسلنا رمز التحقق المكون من 6 أرقام إلى جهة الاتصال التالية.",
+    "tab_contvalid_email_addr_label":"عنوان البريد الإلكتروني",
+    "tab_contvalid_common_vcode_label":"رمز التحقق",
+    "tab_contvalid_common_sendcode_label":"أرسل الرمز",
+    "tab_contvalid_common_resendcode_label":"أعد إرسال الرمز",
+    "tab_contvalid_common_verify_label":"يؤكد",
+    "tab_contvalid_phone_addr_label":"رقم التليفون",
+    "tab_contvalid_common_verified_label":"تم التحقق",
+    "tab_contvalid_common_otperror_label":"الرجاء إدخال كلمة المرور لمرة واحدة.",
+    "tab_contvalid_common_footer_title":"تنتهي صلاحية كلمة المرور لمرة واحدة خلال 5 دقائق. عند انتهاء الوقت ، يرجى إعادة إرساله.",
+
+
+    "tab_persorginfo_tab_poi":"معلومات شخصية",
+    "tab_persorginfo_tab_bilAddr":"عنوان وصول الفواتير",
+    "tab_persorginfo_tab_orgInfo":"معلومات المنظمة",
+
+    "tab_persorginfo_tab_poi_label_famName":"اسم العائلة",
+    "tab_persorginfo_tab_poi_label_firstName": "الاسم الأول",
+   "tab_persorginfo_tab_poi_label_middleName": "الاسم الأوسط",
+   "tab_persorginfo_tab_poi_label_selNationality": "اختر الجنسية",
+   "tab_persorginfo_tab_poi_label_proofOId": "إثبات الهوية",
+   "tab_persorginfo_tab_poi_label_idNumber": "رقم الهوية",
+   "tab_persorginfo_tab_poi_label_placeOIs": "مكان الاصدار",
+   "tab_persorginfo_tab_poi_label_dateOfissue": "تاريخ المسألة",
+   "tab_persorginfo_tab_poi_label_expiry": "تاريخ الانتهاء",
+   "tab_persorginfo_tab_poi_label_purpofUse": "الغرض من الاستخدام",
+   "tab_persorginfo_tab_poi_label_dateOfBirth": "تاريخ الميلاد",
+
+   "tab_persorginfo_tab_bilAddr_label_bilNum": "رقم المبنى",
+  "tab_persorginfo_tab_bilAddr_label_streetRd": "طريق الشارع",
+  "tab_persorginfo_tab_bilAddr_label_postalZip": "الرمز البريدي",
+  "tab_persorginfo_tab_bilAddr_label_pobox": "ص. صندوق",
+  "tab_persorginfo_tab_bilAddr_label_city": "مدينة",
+  "tab_persorginfo_tab_bilAddr_label_country": "دولة",
+  "tab_persorginfo_tab_bilAddr_label_otherscity": "مدينة أخرى",
+
+  "tab_persorginfo_tab_orgInfo_label_compName": "اسم الشركة",
+ "tab_persorginfo_tab_orgInfo_label_industry": "صناعة",
+ "tab_persorginfo_tab_orgInfo_label_othersindustry": "صناعة أخرى",
+ "tab_persorginfo_tab_orgInfo_label_commregNum": "رقم السجل التجاري (CR)",
+ "tab_persorginfo_tab_orgInfo_label_issueDt": "تاريخ الإصدار",
+ "tab_persorginfo_tab_orgInfo_label_expireDt": "تاريخ انتهاء الصلاحية",
+ "tab_persorginfo_tab_orgInfo_label_dataClassify": "تصنيف البيانات",
+ "tab_persorginfo_tab_orgInfo_label_purpose": "غاية",
+
+ "tab_payminfo_label_title" :"أضف بطاقتك للفواتير المستقبلية",
+"tab_payminfo_label_addcard" :"إضافة بطاقة",
+"tab_payminfo_label_saved" :"أنقذ",
+"tab_payminfo_label_footer_title" :"تقوم Detacloud بخصم 1 ريال سعودي من بطاقتك كجزء من عملية التحقق من بطاقة الائتمان.",
+"tab_payminfo_label_footer_subtitle" :"سنقوم برد 1 ريال سعودي بعد اكتمال التحقق.",
+
+"tab_sbt_label_scr1_title" : "لقد أكملت بنجاح عملية اعرف عميلك (KYC)!",
+   "tab_sbt_label_scr1_subtitle" : "يمكنك الآن تسجيل الدخول إلى حسابك وطلب منصة detacloud.",
+   "tab_sbt_label_scr2_title" : "التحقق من وثيقة اعرف عميلك!",
+   "tab_sbt_label_scr2_subtitle_0" : "يقوم فريق Detasad Legal بمراجعة مستنداتك المقدمة لتأكيد",
+   "tab_sbt_label_scr2_subtitle_1" : "حالة الاشتراك في الحساب. قد تستغرق هذه العملية ما يصل إلى 3 أيام ، وسوف نخطرك",
+   "tab_sbt_label_scr2_subtitle_2" : "لك النتيجة عبر عنوان البريد الإلكتروني."
+
+
+}

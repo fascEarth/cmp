@@ -1,0 +1,522 @@
+#main .content-wrapper-before {
+  height: 148px;
+}
+.card-title {
+font-weight: 600 !important;
+}
+.tab-card {
+/* height: 150px; */
+margin-top: 15px;
+}
+.border-right {
+border-right: 1px solid #ccc !important;
+}
+.blue-text {
+color: #3EA5B9 !important;
+}
+.dark-blue {
+color: #005B7F !important;
+}
+.white-text {
+color: #fff !important;
+}
+.header-cost {
+/* width: 9.5%;
+position: absolute;
+color: #005B7F !important;
+right: 38px;
+text-align: left;
+font-size: 18px !important; */
+width: 9.5%;
+position: relative;
+color: #005B7F !important;
+right: 8px;
+text-align: left;
+margin-left: auto;
+font-size: 18px !important;
+}
+.expandall {
+width: 9.5%;
+position: relative;
+right: 20px;
+float: right;
+cursor: pointer;
+}
+.total-card {
+width: 40%;
+height: 55px;
+float: right;
+padding: 3px;
+background: linear-gradient(45deg,#013850,#0773a5)!important;
+}
+.total-card  .card-content .card-title {
+font-size: 18px;
+line-height: 1.2;
+margin-left: 13px;
+}
+.total-value {
+width: 75%;
+height: 45px;
+background: #fff;
+border-radius: 5px;
+position: absolute;
+right: 5px;
+top: 5px;
+bottom: 5px;
+font-size: 18px;
+font-weight: 600;
+padding: 9px;
+}
+.total-value > .header-cost {
+  width: 32.5%;
+  position: absolute;
+  right: 10px;
+}
+.card-heading-top {
+  padding-top: 30px !important;
+}
+.top-card-sar-value {
+  width: 135px;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  text-align: center;
+  color: #6A6A6A;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.top-card-sar {
+/* left: 30px; */
+position: relative;
+color:#9A9A9A;
+}
+.collapsible-count {
+position: relative;
+display: inline-block;
+top: 2px;
+width: 35px;
+height: 25px;
+background: #EFEFEF;
+color: #3EA5B9 !important;
+text-align: center;
+margin-left: 10px;
+border-radius: 3px;
+line-height: 1.5;
+}
+
+/********** *********/
+.estimatedcost-collapsible {
+box-shadow: none;
+border: 0;
+}
+.estimatedcost-collapsible .collapsible-header {
+margin-bottom: 10px;
+line-height: 1.7;
+background-color: #F4F5F7;
+border: 0;
+box-shadow: 0px 15px 10px -15px #c7c7c7;
+}
+.estimatedcost-collapsible .collapsible-header > span {
+font-size: 16px;
+color: #000;
+font-weight: 700;
+}
+.estimatedcost-collapsible .collapsible-header i {
+width: 25px;
+height: 25px;
+position: relative;
+font-size: 20px;
+padding-left: 2px;
+text-align: center;
+color: #838383;
+border: 2px solid #838383;
+border-radius: 50%;
+line-height: 1;
+}
+.estimatedcost-collapsible li.active i {
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(90deg);
+}
+.estimatedcost-collapsible .collapsible-body {
+padding: 10px 2rem;
+margin-bottom: 10px;
+box-shadow: 0px 15px 10px -15px #a9a1a1;
+}
+
+
+/************ Data table css *************/
+table.dataTable {
+width: 100% !important;
+}
+.dataTables_wrapper {
+  margin-top: -35px;
+}
+table.dataTable thead th, table.dataTable thead td {
+border-bottom: 1px solid #ccc;
+}
+table.dataTable.no-footer {
+border-bottom: 1px solid #ccc;
+}
+table.dataTable thead .sorting {
+background-image: none;
+}
+table.dataTable thead .sorting_asc {
+background-image: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+padding: 3px 10px;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+font-size: 13px;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+padding: 8px 15px;
+}
+.dtr-control {
+width: 48%;
+}
+
+#main .section-data-tables .dataTables_wrapper table.dataTable tbody td, #main .section-data-tables .dataTables_wrapper table.dataTable tbody th {
+  white-space: nowrap;
+  border: none!important;
+  text-align: left;
+}
+#main .section-data-tables .dataTables_wrapper table.dataTable thead th {
+border-top: 0px solid #c7c7c7;
+color: #3EA5B9;
+}
+#main .section-data-tables .dataTables_wrapper .dataTables_filter#vminstance-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#vminstance-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .dataTables_filter#vminstance-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+position: relative;
+top: -17px;
+right: 50px;
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .dataTables_filter#vminstance-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .dataTables_filter#vminstance-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #vminstance-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #vminstance-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #vminstance-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+#main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before {
+  top: 20px;
+}
+#main .section-data-tables .dataTables_wrapper #page-length-option_paginate, #main .section-data-tables .dataTables_wrapper .dataTables_paginate {
+  margin-right: 0.35rem;
+  margin-bottom: 0.15rem;
+  margin-top: 0.25rem;
+}
+
+/************* Skeleton Css ************/
+.estimatedcost-skeleton .header-skeleton {
+width: 175px;
+height: 12px;
+position: relative;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .card-header-skeleton {
+width: 50%;
+height: 12px;
+position: relative;
+top: 5px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .card-header-p-skeleton {
+width: 90%;
+height: 12px;
+position: relative;
+top: 15px;
+margin-bottom: 10px !important;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .chart-skeleton {
+width: 115px;
+height: 115px;
+position: relative;
+background: #ccc;
+border-radius: 50%;
+}
+.estimatedcost-skeleton .top-card-sar-skeleton {
+width: 125px;
+height: 12px;
+position: relative;
+top: 5px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .top-sar-text-skeleton {
+width: 62px;
+height: 12px;
+position: relative;
+top: 20px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .summary-skeleton {
+width: 125px;
+height: 12px;
+position: relative;
+display: inline-block;
+top: 0px;
+bottom: 9px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .expandall {
+  width: 125px;
+  height: 12px;
+  position: relative;
+  display: inline-block;
+  top: 9px;
+  bottom: 9px;
+  right: 3px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.estimatedcost-skeleton .collapsible-li-sk {
+width: 100%;
+height: 60px;
+position: relative;
+display: inline-block;
+margin-bottom: 10px;
+background: #F4F5F7;
+box-shadow: 0px 15px 10px -15px #c7c7c7;
+}
+.estimatedcost-skeleton .collapsible-li-arrow {
+width: 25px;
+height: 25px;
+position: relative;
+border-radius: 50%;
+background: #ccc;
+top: 19px;
+left: 20px;
+}
+.estimatedcost-skeleton .collapsible-li-header-skeleton {
+width: 195px;
+height: 12px;
+position: relative;
+display: inline-block;
+top: 27px;
+left: 35px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .collapsible-li-sar-skeleton {
+width: 100px;
+height: 12px;
+position: absolute;
+display: inline-block;
+right: 70px;
+top: 27px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-skeleton .total-bottom-value {
+width: 55px;
+  height: 12px;
+  position: relative;
+  display: inline-block;
+  top: 4px;
+  left: -5px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.estimatedcost-skeleton .animate {
+animation: shimmer 2s infinite linear;
+background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+background-size: 1000px 100%;
+}
+.estimatedcost-skeleton .collaps-animate {
+animation: shimmer 2s infinite linear;
+background: linear-gradient(to right, #efefef 4%, #dbdbdb 25%, #e9e8e8 36%);
+background-size: 1000px 100%;
+}
+.estimatedcost-skeleton .header-animate {
+animation : shimmer 2s infinite linear;
+background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+0% {
+  background-position: -1000px 0;
+}
+100% {
+  background-position: 1000px 0;
+}
+}
+
+/************ Account Details Table Skeleton **********/
+.estimatedcost-table-list-skeleton .table-header-skeleton {
+width: 175px;
+height: 12px;
+position: relative;
+top: 35px;
+background: #8d8d8d;
+border-radius: 5px;
+}
+.estimatedcost-table-list-skeleton .table-header-search {
+width: 260px;
+height: 30px;
+border-radius: 20px;
+float: right;
+top: 0px;
+position: relative;
+border: 1px solid #c7c7c7;
+}
+/* .estimatedcost-table-list-skeleton table {
+margin-top: 25px;
+} */
+.estimatedcost-table-list-skeleton tr {
+border-bottom: 0px;
+}
+.estimatedcost-table-list-skeleton thead tr {
+height: 48px;
+background-color: #dbdada;
+}
+.estimatedcost-table-list-skeleton table.striped > tbody > tr > td {
+height: 50px;
+}
+.estimatedcost-table-list-skeleton .table-td-skeleton {
+width: 70%;
+height: 12px;
+position: relative;
+top: 2px;
+background: #8d8d8d;
+border-radius: 5px;
+margin: 0 auto;
+}
+.estimatedcost-table-list-skeleton .animate {
+animation : shimmer 2s infinite linear;
+background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+background-size: 1000px 100%;
+}
+.estimatedcost-table-list-skeleton .header-animate {
+animation : shimmer 2s infinite linear;
+/* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+background-size: 1000px 100%;
+}
+@keyframes shimmer {
+0% {
+  background-position: -1000px 0;
+}
+100% {
+  background-position: 1000px 0;
+}
+}
+
+/*********** Responsive CSS **********/
+@media only screen and (max-width: 600px) {  
+.total-card {
+  width: 100% !important;
+}
+.card-heading-top {
+  padding-top: 0px !important;
+  padding-bottom: 20px !important;
+}
+.expandall {
+  display: none !important;
+}
+.header-cost {
+  right: 35px !important;
+}
+.total-value > .header-cost {
+  width: 23% !important;
+  right: 12px !important;
+}
+
+/************* Skeleton Css ************/
+.chart-sm {
+  margin-top: 40px !important;
+}
+.estimatedcost-skeleton .collapsible-li-header-skeleton {
+  width: 115px !important;
+}
+.estimatedcost-skeleton .collapsible-li-sar-skeleton {
+  width: 70px !important;
+  right: 18px !important;
+}
+
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) { 
+.total-card {
+  width: 55% !important;
+}
+.card-heading-top {
+  padding-top: 0px !important;
+}
+.expandall {
+  width: 16% !important;
+  right: 0 !important;
+}
+.header-cost {
+  width: 13.5% !important;
+}
+.total-value > .header-cost {
+  width: 32.5% !important;
+}
+.md-heading-rs {
+  margin-top: 0 !important;
+}
+.md-chart {
+  margin-top: 30px !important;
+}
+
+/************* Skeleton Css ************/
+.estimatedcost-skeleton .card-header-skeleton {
+  top: 12px !important;
+}
+.estimatedcost-skeleton .card-header-p-skeleton {
+  top: 25px !important;
+}
+.estimatedcost-skeleton .top-card-sar-skeleton {
+  width: 53px !important;
+}
+.estimatedcost-skeleton .top-sar-text-skeleton {
+  width: 53px !important;
+  left: 0 !important;
+}
+
+}
+
+@media only screen and (min-width: 1920px) { 
+/* .expandall {
+  right: 6% !important;
+}
+.header-cost {
+  right: 6% !important;
+}
+.total-value > .header-cost {
+  right: 12% !important;
+} */
+.md-heading-rs {
+  margin-top: 25px !important;
+}
+.total-card .card-content .card-title {
+  line-height: 0.3 !important;
+}
+}

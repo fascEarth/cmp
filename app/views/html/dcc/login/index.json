@@ -1,0 +1,10 @@
+{
+    "707":"Error Occured",
+    "703":"Error Occured",
+    "701":"Invalid Credentials",
+    "702":"Invalid Email Address",
+    "604": "Incorrect OTP",
+    "603": "Invalid OTP",
+    "601": "SMS verification failed"    
+
+}

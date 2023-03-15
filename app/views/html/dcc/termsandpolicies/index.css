@@ -1,0 +1,36 @@
+body{
+    background-image: none !important;
+    background-color:#fff !important;
+}
+.login-bg {
+    background: none !important;
+}
+.tabs {
+    height: 80px;
+}
+.tabs .tab {
+    line-height: 80px;
+    height: 80px;
+}
+.tabs .tab a {
+    color: #b6f2ff !important;
+}
+.tabs .indicator {
+    height: 4px;
+    background: linear-gradient(45deg,#93deff,#19b6ff)!important;
+}
+.cyan {
+    background: rgb(1,56,80);
+    background: linear-gradient(90deg, rgba(1,56,80,1) 0%, rgba(7,115,165,1) 50%);
+}
+.cyan.lighten-4 {
+    background: rgb(1,56,80);
+    background: linear-gradient(90deg, rgba(1,56,80,1) 0%, rgba(7,115,165,1) 50%) !important;
+}
+h4 {
+    color: #b6f2ff !important;
+    font-size: 20px !important;
+}
+p {
+   color: #FFF !important;
+}

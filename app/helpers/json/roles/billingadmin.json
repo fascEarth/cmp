@@ -1,0 +1,104 @@
+[
+    
+    {
+        "pool":true,
+        "poolName":"menu_label_6",
+        "children":[
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_7", 
+            "imageIcon":"currentusage.svg",
+            "icon":"description",
+            "main":"currentusage",
+            "uriAddr":"currentusage",       
+            "submenu":false,
+            "tabs":false
+            },
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_8", 
+            "imageIcon":"invoice.svg",
+            "icon":"description",
+            "main":"invoices",
+            "uriAddr":"invoices",       
+            "submenu":false,
+            "tabs":false
+            },
+           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_9", 
+            "icon":"credit_card",
+            "imageIcon":"payment.svg",
+            "main":"billingsettings",      
+            "uriAddr":"billingsettings",       
+            "submenu":false,
+            "tabs":[      
+                "Payment Method",          
+                "Billing Address",
+                "Billing Contact"
+            ]
+            }
+           
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_10",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_11", 
+            "icon":"person",
+            "imageIcon":"account.svg",
+            "main":"Account",      
+            "uriAddr":"account",       
+            "submenu":false,
+            "tabs":[
+                "My Profile"
+            ]
+            },
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_12", 
+            "icon":"security",
+            "imageIcon":"shield.svg",
+            "main":"security",      
+            "uriAddr":"security",       
+            "submenu":false,
+            "tabs":[
+                "Modify Password",
+                "Multi Factor Auth",                
+                "My Activity"
+            ]
+            }
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_13",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_14", 
+            "icon":"help",
+            "imageIcon":"support.svg",
+            "main":"support",      
+            "uriAddr":"support",       
+            "submenu":false,
+            "tabs":false
+            },
+            
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_15", 
+            "icon":"chat_bubble",
+            "imageIcon":"faq.svg",
+            "main":"faq",      
+            "uriAddr":false,       
+            "submenu":false,
+            "tabs":false
+            }
+        ]
+    }
+]

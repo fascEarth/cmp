@@ -1,0 +1,11 @@
+{
+    "netib_label_0":"Internet Bandwidth",
+    "netib_label_1":"Current Subscribed Bandwidth",
+    "netib_label_2":"Upload",
+    "netib_label_3":"Download",
+    "netib_label_4":"Upgrade Internet Bandwidth",
+    "netib_label_5":"UPGRADE",
+    "netib_label_6":"Select Bandwidth",
+    "netib_label_7":"Internet bandwidth successfully upgraded!",
+    "netib_label_8":"Error Occured! Contact Administrator."
+}

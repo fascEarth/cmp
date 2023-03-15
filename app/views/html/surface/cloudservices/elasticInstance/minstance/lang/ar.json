@@ -1,0 +1,71 @@
+{
+    "general_cancel_btn":"يلغي",
+    "general_lbl_retry":"أعد المحاولة",
+    "general_lbl_yes":"نعم",
+    "general_delete_btn":"يمسح",
+
+    "pageTitle": "إدارة المثيل",
+    "minsl_nod_label_0":"لم يتم العثور على مثيل",
+    "minsl_nod_label_1":"انشر الخدمات السحابية على الفور لترى المساحة تملأ ببياناتك.",
+    "minsl_nod_label_2":"يخلق",
+
+    "minsl_title":"قائمة المثيل",
+    "minsl_datatable_search_label":"مثيل البحث",
+
+    "minsl_tbl_column_0":"حالة",
+    "minsl_tbl_column_1":"ملصق",
+    "minsl_tbl_column_2":"عنوان IP",
+    "minsl_tbl_column_3":"تخصيص",
+    "minsl_tbl_column_4":"مركز البيانات",
+    "minsl_tbl_column_5":"مركز البيانات",
+    "minsl_tbl_column_6":"فعل",
+
+    "minsl_tbl_vm_status_0":"التزويد",
+    "minsl_tbl_vm_status_1":"انقطاع التيار الكهربائي",
+    "minsl_tbl_vm_status_2":"جري",
+    "minsl_tbl_vm_status_3":"اغلاق نظام التشغيل",
+    "minsl_tbl_vm_status_4":"إعادة تعيين الطاقة",
+    "minsl_tbl_vm_status_5":"تعليق",
+
+    "minsl_tbl_vm_state_msg_0":"فشل التشغيل",
+    "minsl_tbl_vm_state_msg_1":"فشل التوفير",
+    "minsl_tbl_vm_state_msg_2":"توفير VM",
+    "minsl_tbl_vm_state_msg_3":"التزويد: التشغيل",
+    "minsl_tbl_vm_state_msg_4":"التزويد: إضافة القرص",
+    "minsl_tbl_vm_state_msg_5":"التزويد: تعيين عنوان IP الخاص",
+    "minsl_tbl_vm_state_msg_6":"التزويد: فشل التشغيل",
+    "minsl_tbl_vm_state_msg_7":"التزويد: فشل التخزين الإضافي",
+    "minsl_tbl_vm_state_msg_8":"التزويد: فشل تعيين IP",
+    "minsl_tbl_vm_state_msg_9":"انتظر من فضلك..",
+
+    "minsl_tbl_vm_action_0":"تشغيل",
+    "minsl_tbl_vm_action_1":"انقطاع التيار الكهربائي",
+    "minsl_tbl_vm_action_2":"اغلق",
+    "minsl_tbl_vm_action_3":"إعادة ضبط",
+    "minsl_tbl_vm_action_4":"تعليق",
+    "minsl_tbl_vm_action_5":"يمسح",
+    "minsl_tbl_vm_action_6":"عرض التفاصيل",
+
+    "minsl_tbl_vm_action_alert_state_0":"مثيل مرن",
+    "minsl_tbl_vm_action_alert_state_1":"السلطة على الخادم؟",
+    "minsl_tbl_vm_action_alert_state_2":"انقطاع التيار الكهربائي عن الخادم؟",
+    "minsl_tbl_vm_action_alert_state_3":"اغلاق الخادم؟",
+    "minsl_tbl_vm_action_alert_state_4":"إعادة تعيين الخادم؟",
+    "minsl_tbl_vm_action_alert_state_5":"تعليق الخادم؟",
+    "minsl_tbl_vm_action_alert_state_6":"هل تريد حذف الخادم؟",
+    "minsl_tbl_vm_action_alert_state_7":"أعد محاولة توفير VM",
+
+    "minsl_tbl_vm_action_alert_state_1_1":"هل أنت متأكد أنك تريد تشغيل الخادم؟",
+    "minsl_tbl_vm_action_alert_state_2_2":"هل أنت متأكد من أنك تريد إيقاف تشغيل الخادم؟",
+    "minsl_tbl_vm_action_alert_state_3_3":"هل أنت متأكد أنك تريد إيقاف تشغيل الخادم؟",
+    "minsl_tbl_vm_action_alert_state_4_4":"هل أنت متأكد أنك تريد إعادة تعيين الخادم؟",
+    "minsl_tbl_vm_action_alert_state_5_5":"هل أنت متأكد أنك تريد تعليق الخادم؟",
+    "minsl_tbl_vm_action_alert_state_6_6":"هل أنت متأكد أنك تريد حذف الخادم؟",
+    "minsl_tbl_vm_action_alert_state_7_7":"هل أنت متأكد من أنك تريد إعادة تشغيل توفير الأجهزة الافتراضية؟",
+
+    "minsl_tbl_message_retry_success":"بدأت إعادة المحاولة بنجاح!"  ,
+    "minsl_tbl_message_vmdelete_success":"تم حذف VM بنجاح!"  ,
+    "minsl_tbl_message_status_up_success":"تم تحديث الحالة بنجاح!"  ,
+    "minsl_tbl_message_error_occured":"حدث خطأ! اتصل بالمسؤول."  
+
+}

@@ -1,0 +1,269 @@
+[
+  {
+    "page": "support",
+    "accessDirect":true,
+    "path": "surface/misc/support/index.html",
+    "scripts": {
+      "realScripts":[],
+      "virtualScripts":{
+        "getscript":{
+          "plugins":[
+
+          ],
+          "primary":[
+            "app/helpers/js/surfaceCommon.js"
+
+          ],
+          "secondary":[
+           "app/views/html/surface/misc/support/index.js"
+
+          ]
+        }
+      }
+    }
+},
+  {
+      "page": "dashboard",
+      "accessDirect":true,
+      "path": "surface/dashboard/index.html",
+      "scripts": {
+        "realScripts":[],
+        "virtualScripts":{
+          "getscript":{
+            "plugins":[
+
+            ],
+            "primary":[
+              "app/helpers/js/surfaceCommon.js"
+
+            ],
+            "secondary":[
+             "app/views/html/surface/dashboard/index.js"
+
+            ]
+          }
+        }
+      }
+  },
+  {
+    "page": "minstance",
+    "accessDirect":true,
+    "path": "surface/cloudservices/elasticInstance/minstance/view.php",
+    "scripts": {
+      "realScripts":[],
+      "virtualScripts":{
+        "getscript":{
+          "plugins":[
+
+          ],
+          "primary":[
+            "app/helpers/js/surfaceCommon.js"
+
+          ],
+          "secondary":[
+           "app/views/html/surface/cloudservices/elasticInstance/minstance/index.js"
+
+          ]
+        }
+      }
+    }
+},
+
+{
+  "page": "minstancedetail",
+  "accessDirect":true,
+  "path": "surface/cloudservices/elasticInstance/minstance/detail/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js"
+
+        ],
+        "secondary":[
+         "app/views/html/surface/cloudservices/elasticInstance/minstance/detail/index.js"
+
+        ]
+      }
+    }
+  }
+},
+{
+  "page": "cinstance",
+  "accessDirect":true,
+  "path": "surface/cloudservices/elasticInstance/cinstance/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js"          
+        ],
+        "secondary":[
+          "app/views/html/surface/cloudservices/elasticInstance/cinstance/custom.js",
+         "app/views/html/surface/cloudservices/elasticInstance/cinstance/index.js"
+
+        ]
+      }
+    }
+  }
+},
+{
+  "page": "invoices",
+  "accessDirect":true,
+  "path": "surface/billing/invoices/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js"
+
+        ],
+        "secondary":[
+         "app/views/html/surface/billing/invoices/index.js"
+
+        ]
+      }
+    }
+  }
+},
+{
+  "page": "account",
+  "accessDirect":true,
+  "path": "surface/settings/account/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js",
+          "app/views/html/surface/settings/account/index.js"
+
+        ],
+        "secondary":[
+         "app/views/html/surface/settings/account/userMgmt.js",
+         "app/views/html/surface/settings/account/teams.js",
+         "app/views/html/surface/settings/account/tags.js",
+         "app/views/html/surface/settings/account/profile.js",
+         "app/views/html/surface/settings/account/org.js"
+
+        ]
+      }
+    }
+  }
+},
+
+
+{
+  "page": "internetbandwidth",
+  "accessDirect":true,
+  "path": "surface/networkservices/internetbandwidth/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js",
+          "app/views/html/surface/networkservices/internetbandwidth/index.js"
+
+        ],
+        "secondary":[
+        
+
+        ]
+      }
+    }
+  }
+},
+
+{
+  "page": "billingsettings",
+  "accessDirect":true,
+  "path": "surface/billing/billingsettings/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js",
+          "app/views/html/surface/billing/billingsettings/index.js"
+
+        ],
+        "secondary":[
+        
+
+        ]
+      }
+    }
+  }
+},
+{
+  "page": "currentusage",
+  "accessDirect":true,
+  "path": "surface/billing/currentusage/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js",
+          "app/views/html/surface/billing/currentusage/index.js"
+
+        ],
+        "secondary":[
+        
+
+        ]
+      }
+    }
+  }
+},
+{
+  "page": "security",
+  "accessDirect":true,
+  "path": "surface/settings/security/view.php",
+  "scripts": {
+    "realScripts":[],
+    "virtualScripts":{
+      "getscript":{
+        "plugins":[
+
+        ],
+        "primary":[
+          "app/helpers/js/surfaceCommon.js",
+          "app/views/html/surface/settings/security/index.js"
+
+        ],
+        "secondary":[
+        
+
+        ]
+      }
+    }
+  }
+}
+
+]

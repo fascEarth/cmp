@@ -1,0 +1,701 @@
+#main .content-wrapper-before {
+  height: 100px;
+}
+.card-title {
+font-weight: 600 !important;
+}
+/*------------- Tab Css -----------*/
+.tab-card {
+  height: 75px;
+  margin-top: 15px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.tabs {
+  height: 75px;
+}
+.tabs .tab {
+  line-height: 78px;
+  height: 75px;
+  text-transform: capitalize;
+}
+.tabs .tab a {
+color: #333;
+}
+.tabs .tab a.active {
+  color: #06597F;
+  font-weight: 600;
+  background-color: #e6f8fb;
+}
+.tabs .tab a:focus {
+  background-color: #e6f8fb;
+}
+.tabs .indicator {
+  background: linear-gradient(45deg,#2598cb,#035981)!important;
+}
+
+@media only screen and (min-width: 1920px)
+{  
+  .tab-card {
+      margin-top: 0;
+  }
+}
+
+/********* Table CSS ********/
+.invoice-action {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background: #e8f5e9;
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+  line-height: 44px;
+}
+.invoice-action i {
+color: #afacac;
+}
+.invoice-action .dropdown-content {
+  min-width: max-content; 
+  top: 35px !important;
+  border-radius: 7px;
+  left: -100px !important;
+}
+table.dataTable.no-footer {
+  border-bottom: 1px solid #ccc;
+}
+.table-header {
+position: absolute;
+top: 25px;
+right: 42px;
+font-weight: 800;
+cursor: pointer;
+z-index: 1;
+}
+.table-add-icon {
+  background: -webkit-linear-gradient(#013850, #0773a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chip {
+  width: 70px;
+  height: 32px;
+  text-align: center;
+}
+.filter-btn {
+  height: 30px;
+  line-height: 31px !important;
+}
+.export-bg {
+  color: #fff !important;
+  background-color: #0691d1 !important;
+}
+.dropdown-content {
+  z-index: 20000;
+  max-height: 300px;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #333;
+}
+
+/* Input field  Css*/
+.input-field>label {
+  color: #BDBEC6;
+}
+.input-field.input-outlined > input {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  margin: 0 0 25px 0;
+  float: none;
+  display: block;
+  border-radius: 7px;
+  transition: box-shadow, border-color 0.15s;
+}
+.input-field div.error {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #7BCCC8;
+  box-shadow: 0 1px 0 0px #7BCCC8;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.input-field .prefix {
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  color: #90B2BA;
+}
+
+.input-field .prefix.active {
+  color: #7BCCC8;
+}
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #D9D9DB;
+}
+
+[type=checkbox]:checked+span:not(.lever):before {
+  border-right: 2px solid #7BCCC8;
+  border-bottom: 2px solid #7BCCC8;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #01404F;
+}
+
+input:not([type]):disabled, input:not([type])[readonly='readonly'], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly='readonly'], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly='readonly'], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly='readonly'], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly='readonly'], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly='readonly'], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly='readonly'], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly='readonly'], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly='readonly'], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly='readonly'], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly='readonly'], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly='readonly'], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly='readonly'] {
+  color: rgba(0, 0, 0, .42);
+  border-bottom: 1px solid #c7c7c7;
+}
+
+#sur_acc_profileid_form input:disabled {
+  color: #333;
+}
+
+
+
+/* Select Box Css*/
+.select-wrapper input.select-dropdown {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  margin: 0 0 25px 0;
+  float: none;
+  display: block;
+  border-radius: 7px;
+  z-index: 1;
+  transition: box-shadow, border-color 0.15s;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.select-wrapper .caret {
+top: 1px;
+right: 9px;
+fill: #636578;
+}
+.data-class .select-wrapper .caret {
+  right: -38px !important;
+}
+.select-wrapper + label {
+font-size: 15px;
+font-weight: 600;
+position: absolute;
+top: 14px;
+left: 22px !important;
+}
+.select-wrapper input.select-dropdown:focus {
+border-color: #7BCCC8;
+box-shadow: 0 1px 0 0px #7bccc8;
+}
+.select-dropdown.dropdown-content {
+  border-radius: 7px;
+}
+
+/********** Select 2 Css **********/
+.select2-container {
+  z-index: 2000;
+  /* z-index: 10; */
+  margin: 0 0 25px 0;
+}
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.select2-container--default .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--multiple {
+  min-height: 47px;
+  max-height: 250px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li > input {
+  margin-bottom: 0px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-top: 12px;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+  height: 36px;
+}
+.select2-container--default .select2-selection--multiple {
+  background-color: transparent;  
+}
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single, .select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: 1px solid #c7c7c7;
+  border-radius: 7px;
+  padding: 0 5px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected], div.tagsinput span.tag {
+  background-color: #0691d1 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background: linear-gradient(45deg,#013850,#0773a5)!important;
+}
+.select2::-webkit-input-placeholder { 
+  color:#BDBEC6; 
+}
+.select2-container .select2-search--inline .select2-search__field {
+  width: 100% !important;
+}
+
+/********** Modal Css *********/
+.modal {
+width: 50%;
+max-height:80%;
+border-radius: 10px;
+background-color: #fff;
+}
+.modal .modal-footer {
+  border-top: 1px solid #ccc;
+}
+.modal-invite {
+  display: flex;
+  width: 110px;
+  position: absolute;
+  left: 44%;
+}
+
+.card-alert button {
+  top: 10px;
+}
+.form-btn {
+  width: 100px;
+  padding: 1px 10px;
+}
+.cancle-btn {
+ background: linear-gradient(45deg, #b7b7b7, #818181) !important;
+}
+.member-circle {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  /* padding: 10px; */
+  background: #0ee95b6b;
+  color: #333;
+  vertical-align: middle;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elastic-circle {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  /* padding: 10px; */
+  background: #e9910e6b;
+  color: #333;
+  vertical-align: middle;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------- Date Picker Css ----------*/
+.datepicker-date-display {
+  background-color: #06597F;
+}
+.datepicker-table td.is-today {
+  color: #1976d2;
+}
+.datepicker-table td.is-selected {
+  color: #fff;
+  background-color: #06597F;
+}
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  padding: 0 1rem;
+  color: #43a7bd;
+}
+.datepicker-controls button:focus {
+  background-color: #06597F;
+}
+.datepicker-day-button:focus {
+  background-color: #b9e7fd;
+}
+
+.data-class .select-wrapper input.select-dropdown {
+width: 103%;
+}
+.data-class .org-info-class {
+right: -12px;
+top: 4px;
+position: relative;
+}
+
+@media only screen and (min-width: 1920px){ 
+  .data-class .select-wrapper input.select-dropdown {
+    width: 108% !important;
+  }
+  .data-class .org-info-class {
+    right: -54px !important;
+  }
+}
+
+@media only screen and (min-width: 3024px){ 
+  .data-class .select-wrapper input.select-dropdown {
+    width: 104% !important;
+  }
+}
+
+/************ Data table css *************/
+/* #main .section-data-tables .dataTables_wrapper table.dataTable tbody {
+height: auto;
+} */
+table.striped > tbody > tr > td {
+  word-break: break-all;
+  vertical-align: middle;
+  white-space: normal !important;
+}
+.dataTables_wrapper {
+top: -15px;
+}
+#main .section-data-tables .dataTables_wrapper table.dataTable thead th {
+  border-top: 1px solid #c7c7c7;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#usermanagement-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+position: relative;
+top: -17px;
+right: 15px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #usermanagement-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #usermanagement-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #usermanagement-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+
+/********* Team Data table  **********/
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+position: relative;
+/* top: -17px;
+right: 15px; */
+top: -60px;
+right: -8px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #team-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #team-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #team-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+/********* Team Data table **********/
+/********* Tags Data table **********/
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable {
+position: relative;
+top: -17px;
+right: 15px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #tag-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #tag-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #tag-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+/********* Tags Data table **********/
+
+/*********** Card Skeleton ********/
+.card-tab-skeleton .tab-heading-skeleton {
+  width: 165px;
+  height: 12px;
+  position: relative;
+  top: 34px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.card-tab-skeleton .tabs .indicator {
+  background: transparent;
+}
+.card-tab-skeleton .header-skeleton {
+  width: 175px;
+  height: 12px;
+  position: relative;
+  top: -12px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.card-tab-skeleton .header-animate {
+  animation: shimmer 2s infinite linear;
+  /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+  background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+  background-size: 1000px 100%;
+}
+.card-tab-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************* Profile Skeleton *************/
+.profile-skeleton .profile-input {
+  width: 100%;
+  height: 47px;
+  position: relative;
+  background: #8d8d8d;
+  border-radius: 7px;
+  margin-bottom: 8px;
+}
+.profile-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************ Account Details Table Skeleton **********/
+.account-table-skeleton .table-header-skeleton {
+  width: 175px;
+  height: 12px;
+  position: relative;
+  top: 35px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.account-table-skeleton .table-header-search {
+  width: 260px;
+  height: 30px;
+  border-radius: 20px;
+  float: right;
+  top: 0px;
+  position: relative;
+  border: 1px solid #c7c7c7;
+}
+.account-table-skeleton tr {
+  border-bottom: 0px;
+}
+.account-table-skeleton thead tr {
+  height: 48px;
+  background-color: #dbdada;
+}
+.account-table-skeleton table.striped > tbody > tr > td {
+  height: 50px;
+}
+.account-table-skeleton .table-td-skeleton {
+  width: 70%;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.account-table-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+.account-table-skeleton .header-animate {
+  animation : shimmer 2s infinite linear;
+  /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+  background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************ Responsive CSS ************/
+
+@media only screen and (max-width: 600px) {
+  .idProofNo.pl-0 {
+    padding-left: 1rem !important;
+  }
+  .id-proof {
+    padding-right: 1rem !important;
+  }
+  .table-header {
+    right: 28px !important;
+  }
+  .data-class .select-wrapper input.select-dropdown {
+    width: 88% !important;
+  }
+  .data-class .select-wrapper .caret {
+    right: 9px !important;
+  }
+  .data-class .org-info-class {
+    right: 30px !important;
+    top: 8px !important;
+    position: relative !important;
+    width: 30px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter {
+    top: 22px !important;
+    right: 0px !important;
+    margin-bottom: 25px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    top: 20px !important;
+    right: 0px !important;
+    margin-bottom: 25px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable {
+    top: 20px !important;
+    right: 0px !important;
+    margin-bottom: 25px !important;
+  }
+  .modal {
+    width: 90% !important;
+  }
+  #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before {
+    top: 27px !important;
+  }
+  .chip {
+    margin-top: 3px !important;
+  }
+  .invoice-action {
+    top: 2px !important;
+  }
+
+  /*********** Skeleton Css *********/
+  .card-tab-skeleton .tab-heading-skeleton {
+    width: 60px !important;
+  }
+  .account-table-skeleton .table-header-skeleton {
+    width: 120px !important;
+    margin-bottom: 15px !important;
+  }
+  .account-table-skeleton .table-header-search {
+    width: 165px !important;
+    margin-bottom: 15px !important;
+  }
+
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) { 
+  .idProofNo.pl-0 {
+    padding-left: 1rem !important;
+  }
+  .id-proof {
+    padding-right: 1rem !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#tag-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#tag-datatable {
+    right: 35px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: 35px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: 35px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before {
+    top: 27px !important;
+  }
+
+  /*********** Skeleton Css *********/
+
+}
+
+@media only screen and (min-width: 1920px) {
+  .data-class .select-wrapper input.select-dropdown {
+    width: 108% !important;
+  }
+  .data-class .org-info-class {
+    right: -55px !important;
+  }
+  .data-class .select-wrapper .caret {
+    right: -75px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#team-datatable_filter {
+    right: -42px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#usermanagement-datatable_filter, .dataTables_filter#tag-datatable_filter {
+    right: -15px !important;
+  }
+}
+
+
+
+.top .action-filters {
+  -webkit-box-flex: .95;
+  -webkit-flex-grow: .95;
+  -ms-flex-positive: .95;
+  flex-grow: .95;
+}

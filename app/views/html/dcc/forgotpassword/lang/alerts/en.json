@@ -1,0 +1,47 @@
+{
+    "1001": {
+        "type":"error",
+        "title":"Error",
+        "message":"Error"
+    },
+    "1000": {
+        "type":"success",
+        "title":"Success",
+        "message":"Success"
+    },
+    "200": {
+        "type":"success",
+        "title":"Success",
+        "message":"Success"
+    },
+    "default": {
+        "type":"error",
+        "title":"Error",
+        "message":"Error Occured! Contact Administrator."
+    },
+    "614": {
+        "type":"error",
+        "title":"Error",
+        "message":"Invalid Account."
+    },
+    "612": {
+        "type":"success",
+        "title":"Success",
+        "message":"Success"
+    },
+    "500": {
+        "type":"error",
+        "title":"Error",
+        "message":"Invalid Account."
+    },
+    "603": {
+        "type":"error",
+        "title":"Error",
+        "message":"Entered verification code is wrong"
+    },
+    "602": {
+        "type":"success",
+        "title":"Success",
+        "message":"Success"
+    }
+}

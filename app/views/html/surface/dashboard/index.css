@@ -1,0 +1,66 @@
+.btn-create {
+    height: 36px;
+    padding: 0 2rem;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: #fff;
+    background-color: #0773a5 !important;
+    border-radius: 30px;
+    border: none;
+}
+.btn, .btn-large, .btn-small {
+    background-color: #0773a5 !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Modal Css */
+#intro .modal .modal-content .carousel.carousel-slider .carousel-item .intro-step-title {
+   color: #06597F;
+}
+#intro .modal .modal-content .carousel.carousel-slider ul.indicators .indicator-item.active {
+    background-color: #06597F;
+}
+#intro .modal .modal-content .carousel.carousel-slider .carousel-fixed-item .middle-indicator-text.moveNextCarousel:hover {
+    color: #fff !important;
+    background-color: #06597F;
+}
+#intro .modal .modal-content .carousel.carousel-slider .carousel-fixed-item .middle-indicator-text.movePrevCarousel:hover {
+    color: #fff !important;
+    background-color: #06597F;
+}
+#intro .modal .modal-content .carousel.carousel-slider ul.indicators {
+    bottom: 12px;
+}
+#intro .modal .modal-content .carousel.carousel-slider .carousel-fixed-item .middle-indicator-text.movePrevCarousel {
+    top: 3px;
+    color: #fff !important;
+}
+#intro .modal .modal-content .carousel.carousel-slider .carousel-fixed-item .middle-indicator-text.moveNextCarousel {
+    top: 3px;
+    color: #fff !important;
+}
+#intro .modal .bg-img-div {
+    background-image: url(../../../../../app/views/html/surface/dashboard/img/wave.png);
+}
+.gradient-45deg-purple-deep-orange {
+    background: linear-gradient(45deg, #0D89AD, #06597F) !important;
+}
+.purple-text {
+    color: #06597F !important;
+}
+#intro .modal .modal-content .carousel.carousel-slider .carousel-item.slide-3 ul.feature-list li i.material-icons {
+    background: linear-gradient(to right, #6FCCDD 0%, #015B80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*************** Responsive CSS **************/
+@media only screen and (max-width: 600px) {
+    .dashboard-empty {
+        width: 280px !important;
+    }
+}

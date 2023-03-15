@@ -1,0 +1,235 @@
+{
+  "name": "detasad",
+  "version": "1.0",
+  "styles": {    
+    "vendors":"app/views/app-assets/vendors/vendors.min.css",
+    "materializeStepper":"app/views/app-assets/vendors/materialize-stepper/materialize-stepper.min.css",
+    "materialize":"app/views/app-assets/css/themes/vertical-modern-menu-template/materialize.css",
+    "style":"app/views/app-assets/css/themes/vertical-modern-menu-template/style.css",
+    "formWizard":"app/views/app-assets/css/pages/form-wizard.css",
+    "toastr":"app/views/assets/css/toastr/toastr.min.css",
+    "login":"app/views/app-assets/css/pages/login.css",
+    "intro":"app/views/app-assets/css/pages/intro.css",
+    "customDashboardCss":"app/views/html/surface/dashboard/index.css",
+    "customCommonCss":"app/views/assets/css/custom.css",
+    "jQuerydataTables":"app/views/app-assets/vendors/data-tables/css/jquery.dataTables.min.css",
+    "responsivedataTables":"app/views/app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css",
+    "checkboxesdataTables":"app/views/app-assets/vendors/data-tables/css/dataTables.checkboxes.css",
+    "dataTableReorder":"app/views/app-assets/vendors/data-tables/css/rowReorder.dataTables.min.css",
+    "select2":"app/views/app-assets/vendors/select2/select2.min.css",
+    "select2materialize":"app/views/app-assets/vendors/select2/select2-materialize.css",
+    "formselect2":"app/views/app-assets/css/pages/form-select2.css",
+    "appInvoice":"app/views/app-assets/css/pages/app-invoice.css",
+    "owlCarousel":"app/views/assets/css/owl-carousel/owl.carousel.min.css",
+    "owlCarouselMin":"app/views/assets/css/owl-carousel/owl.theme.default.min.css",
+    "parsley":"app/views/assets/css/parsley/parsley.css",
+    "dataTableCss":"app/views/app-assets/css/pages/data-tables.min.css",
+    "sweetAlert":"app/views/assets/css/sweetalerts/sweetalert.css",
+    "sweetAlertCustom":"app/views/assets/css/sweetalerts/sweet.css"
+  },
+  "advancedStyles": {
+
+  },
+  "scripts": {
+    "vendors":"app/views/app-assets/js/vendors.min.js",
+    "materializeStepper":"app/views/app-assets/vendors/materialize-stepper/materialize-stepper.min.js",
+    "plugins":"app/views/assets/js/plugins.js",
+    "search":"app/views/app-assets/js/search.js",
+    "toastr":"app/views/assets/js/toastr/toastr.min.js",
+    "customScriptDev":"app/helpers/js/common.js",
+    "customScriptDevSurf":"app/helpers/js/commonSurf.js",
+    "idleTimer" : "app/helpers/js/idleTimer.js",
+    "sessionDetails":"app/helpers/js/sessionDetails.js",
+    "customScript":"app/views/app-assets/js/custom/custom-script.js",
+    "customizer":"app/views/app-assets/js/scripts/customizer.js",
+    "verifyWizard":"app/views/assets/js/form-wizard.js",
+    "intro":"app/views/assets/js/intro.js",
+    "jQuerydataTables":"app/views/app-assets/vendors/data-tables/js/jquery.dataTables.min.js",
+    "responsivedataTables":"app/views/app-assets/vendors/data-tables/extensions/responsive/js/dataTables.responsive.min.js",
+    "checkboxesdataTables":"app/views/app-assets/vendors/data-tables/js/datatables.checkboxes.min.js",
+    "dataTableReorder":"app/views/app-assets/vendors/data-tables/js/dataTables.rowReorder.min.js",
+    "appInvoice":"app/views/app-assets/js/scripts/app-invoice.js",
+    "jqueryRepeater":"app/views/app-assets/vendors/form_repeater/jquery.repeater.min.js",
+    "owlCarousel":"app/views/assets/js/owl-carousel/owl.carousel.min.js",
+    "cardsExtended":"app/views/app-assets/js/scripts/cards-extended.js",
+    "parsley":"app/views/assets/js/parsley/parsley.js",
+    "jqueryValidate":"app/views/app-assets/vendors/jquery-validation/jquery.validate.min.js",
+    "select2":"app/views/app-assets/vendors/select2/select2.full.min.js",
+    "formselect2":"app/views/app-assets/js/scripts/form-select2.js",
+    "advanceuimodals":"app/views/app-assets/js/scripts/advance-ui-modals.js",
+    "echartsJs":"app/views/assets/js/echarts/echarts.js",
+    "valuemetricsJs":"app/helpers/js/valuemetrics.js",
+    "wmksJS":"app/views/assets/js/wmks/wmks.min.js",
+    "wmksCustomJS":"app/views/assets/js/wmks/wmksCustom.js",
+    "sweetalertmin":"app/views/assets/js/sweetalerts/sweetalert.min.js",
+    "sweetalert":"app/views/assets/js/sweetalerts/sweet-alert.js"
+  },
+  "advancedScripts": {
+
+    "jQuery":{
+      "other":"",
+      "type":"",
+      "src" :"app/views/assets/js/jQuery/jquery.min.js",
+      "integrity":"",
+      "crossorigin":"",
+      "charset":""
+    },
+    "jQueryUI":{
+      "other":"",
+      "type":"",
+      "src" :"app/views/assets/js/jQuery/jquery-ui.js",
+      "integrity":"",
+      "crossorigin":"",
+      "charset":""
+    },
+    "imask":{
+      "other":"",
+      "type":"",
+      "src" :"https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js",
+      "integrity":"",
+      "crossorigin":"",
+      "charset":""
+    }    
+	},
+  "devScripts":{
+    
+  },
+  "private": true,
+  "allowscripts": {
+    "pages":{
+      "surface":{
+        "css":[
+          "vendors",
+          "owlCarousel",
+          "owlCarouselMin",
+          "jQuerydataTables",
+          "responsivedataTables",
+          "checkboxesdataTables",
+          "dataTableReorder",
+          "select2",
+          "select2materialize",
+          "formselect2",
+          "materialize",
+          "style",
+          "appInvoice",
+          "toastr",
+          "intro",   
+          "dataTableCss",  
+          "sweetAlert",
+          "customCommonCss"          
+        ],
+        "advancedcss":[],
+        "script":[
+          "vendors",
+          "jqueryValidate",
+          "jqueryRepeater",
+          "owlCarousel",
+          "jQuerydataTables",
+          "responsivedataTables",
+          "checkboxesdataTables",
+          "dataTableReorder",
+          "select2",
+          "formselect2",
+          "advanceuimodals",
+          "plugins",
+          "search",
+          "customScript",
+          "customizer",
+          "intro",
+          "toastr",
+          "sweetalertmin",
+          "idleTimer",
+          "sessionDetails",
+          "customScriptDev",
+          "customScriptDevSurf",
+          "appInvoice",
+          "echartsJs",
+          "valuemetricsJs"          
+
+        ],
+        "advancedscript":[
+          
+        ],
+        "devScript":[
+         
+
+        ]
+      },
+
+      "dcc":{
+        "css":[
+          "vendors",
+          "materialize",
+          "style",
+          "toastr",
+          "sweetAlert",
+          
+          "customCommonCss"                   
+        ],
+        "advancedcss":[
+
+        ],
+        "script":[
+
+          "vendors",
+          "jqueryValidate",
+          "plugins",
+          "search",
+          "sweetalertmin",
+          "customScript",
+          "toastr",
+          "customScriptDev"          
+        ],
+        "advancedscript":[
+          "jQuery",
+          "jQueryUI"
+        ],
+        "devScript":[
+          
+        ]
+      },
+      "signup":{
+        "css":[
+          "vendors",
+          "materializeStepper",
+          "materialize",
+          "style",
+          "formWizard",
+          "select2",
+          "select2materialize",
+          "toastr",
+          "sweetAlert",
+          
+          "customCommonCss"            
+        ],
+        "advancedcss":[
+
+        ],
+        "script":[
+
+          "vendors",
+          "jqueryValidate",
+          
+          "materializeStepper",
+          "select2",
+          "plugins",
+          "search",
+          "sweetalertmin",
+          "idleTimer",
+          "sessionDetails",
+          "customScript",
+          "toastr",
+          "customScriptDev",
+          "advanceuimodals"
+        ],
+        "advancedscript":[
+          "jQuery",
+          "jQueryUI"
+        ],
+        "devScript":[
+          
+        ]
+      }
+    }
+  }
+}

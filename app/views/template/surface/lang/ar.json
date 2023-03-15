@@ -1,0 +1,52 @@
+{
+
+    "menu_label_0":"خدمات سحابية",
+    "menu_label_1":"مثيل مرن",
+    "menu_label_2":"إدارة المثيل",
+    "menu_label_3":"إنشاء مثيل",
+    "menu_label_4":"خدمات الشبكة",
+    "menu_label_5":"عرض النطاق الترددي للإنترنت",
+    "menu_label_6":"الفواتير",
+    "menu_label_7":"الاستخدام الحالي",
+    "menu_label_8":"الفواتير",
+    "menu_label_9":"إعدادات الفواتير",
+    "menu_label_10":"إعدادات",
+    "menu_label_11":"حساب",
+    "menu_label_12":"حماية",
+    "menu_label_13":"متفرقات",
+    "menu_label_14":"يدعم",
+    "menu_label_15":"التعليمات",
+
+    "profile": "حساب تعريفي",
+    "logout": "تسجيل خروج",
+
+    "common_introcard_prev":"السابق",
+    "common_introcard_next":"التالي",
+
+    "common_introcard_scr1_label_0":"مرحبًا بك في Detacloud",
+    "common_introcard_scr1_label_1":"ديتاساد (ديتيكون السعودية المحدودة) لديها سجل ثابت من الإنجازات كمساهم رئيسي في تطوير وتطور قطاع تكنولوجيا المعلومات والاتصالات في المملكة العربية السعودية.",
+
+    "common_introcard_scr2_label_0":"تأمين سحابة المؤسسة",
+    "common_introcard_scr2_label_1":"يسمح التحجيم التلقائي للعميل بتوسيع سعة ECS لأعلى أو لأسفل تلقائيًا وفقًا للشروط المحددة. يمكنك إنشاء خوادم سحابية لتلبية متطلباتك من أنواع مثيلات غنية مسبقة التكوين ونكهات موارد.",
+
+    "common_introcard_scr3_label_0":"عرض ميزات السحابة",
+    "common_introcard_scr3_label_1":"خادم حساب مرن",
+    "common_introcard_scr3_label_2":"خدمة إدارة الصور",
+    "common_introcard_scr3_label_3":"التحجيم التلقائي",
+    "common_introcard_scr3_label_4":"خدمة الحجم المرن",
+    "common_introcard_scr3_label_5":"خدمة النسخ الاحتياطي",
+
+    "common_introcard_getstarted":"البدء",
+
+    "common_header_search_placeholder":"استكشف Detacloud",
+    "common_footer_basic_rightsLabel":"كل الحقوق محفوظة.",
+
+    "cins_label_footer_0":"ملخص",
+    "cins_label_footer_1":"نظام التشغيل",
+    "cins_label_footer_2":"موقع",
+    "cins_label_footer_3":"تخصيص",
+    "cins_label_footer_4":"التكلفة المتوقعة",
+    "cins_label_footer_5":"شهر",
+    "cins_label_footer_6":"نشر"
+
+}

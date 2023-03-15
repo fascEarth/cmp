@@ -1,0 +1,53 @@
+{
+    "menu_label_0":"CLOUD SERVICES",
+    "menu_label_1":"Elastic Instance",
+    "menu_label_2":"Manage Instance",
+    "menu_label_3":"Create Instance",
+    "menu_label_4":"NETWORK SERVICES",
+    "menu_label_5":"Internet Bandwidth",
+    "menu_label_6":"BILLING",
+    "menu_label_7":"Current Usage",
+    "menu_label_8":"Invoices",
+    "menu_label_9":"Billing Settings",
+    "menu_label_10":"SETTINGS",
+    "menu_label_11":"Account",
+    "menu_label_12":"Security",
+    "menu_label_13":"MISC",
+    "menu_label_14":"Support",
+    "menu_label_15":"FAQ",
+
+
+
+    "profile": "Profile",
+    "logout": "Logout",
+
+    "common_introcard_prev":"Prev",
+    "common_introcard_next":"Next",
+
+    "common_introcard_scr1_label_0":"Welcome to Detacloud",
+    "common_introcard_scr1_label_1":"DETASAD (Detecon Al Saudia Co. Ltd.) has a consistent record of accomplishment as a key contributor to the development and evolution of the ICT sector in the Kingdom of Saudi Arabia.",
+
+    "common_introcard_scr2_label_0":"Secure Enterprise Cloud",
+    "common_introcard_scr2_label_1":"Auto Scaling allows customer to scale the ECS capacity up or down automatically according to the defined conditions. You can build cloud servers to meet your requirements from rich pre-configured instance types and resource flavors.",
+
+    "common_introcard_scr3_label_0":"Showcase Cloud Features",
+    "common_introcard_scr3_label_1":"Elastic Compute Server",
+    "common_introcard_scr3_label_2":"Image Mgmt Service",
+    "common_introcard_scr3_label_3":"Auto-Scaling",
+    "common_introcard_scr3_label_4":"Elastic Volume Service",
+    "common_introcard_scr3_label_5":"Backup Service",
+
+    "common_introcard_getstarted":"Get Started",
+
+    "common_header_search_placeholder":"Explore Detacloud",
+    "common_footer_basic_rightsLabel":"All rights reserved.",
+
+    "cins_label_footer_0":"Summary",
+    "cins_label_footer_1":"Operating System",
+    "cins_label_footer_2":"Location",
+    "cins_label_footer_3":"Specification",
+    "cins_label_footer_4":"Estimated Cost",
+    "cins_label_footer_5":"Month",
+    "cins_label_footer_6":"Deploy"
+
+}

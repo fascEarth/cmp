@@ -1,0 +1,326 @@
+.invoice-list-wrapper .responsive-table .invoice-data-table .dt-checkboxes-cell input:checked:before, .invoice-list-wrapper .responsive-table .invoice-data-table .dt-checkboxes-cell input:checked::after {
+    border-right: 2px solid #009bdf;
+    border-bottom: 2px solid #009bdf;
+}
+.purple.darken-1 {
+   background-color: #0773a5 !important;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #333;
+}
+a {
+    color: #0773a5;
+}
+.btn-light-indigo:hover, .btn-light-indigo:focus, .btn-light-indigo.hover {
+    background-color: #0773a5 !important;
+}
+.invoice-action {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    background: #e8f5e9;
+    border-radius: 50%;
+    padding: 0;
+    text-align: center;
+    line-height: 44px;
+}
+.invoice-list-wrapper .responsive-table .top .action-filters .dataTables_filter {
+    width: 40%;
+    padding-right: 30px;
+}
+.invoice-list-wrapper .responsive-table .top .action-filters .dataTables_filter label input[type='search'] {
+    height: 36px !important;
+}
+.invoice-list-wrapper .responsive-table .top .action-filters .dataTables_filter label .filter-btn {
+    top: -9px;
+}
+.invoice-list-wrapper .responsive-table .bottom .dataTables_paginate .paginate_button.current, .invoice-list-wrapper .responsive-table .bottom .dataTables_paginate .paginate_button:hover {
+    border: 1px solid #2196f3;
+    background: #2196f3;
+    box-shadow: 0 0 8px 0 #2196f3;
+}
+.invoice-data-table .dropdown-content {
+    min-width: max-content; 
+    top: 35px !important;
+    border-radius: 7px;
+}
+#btn-filter.dropdown-content {
+    top: 35px !important;
+    border-radius: 7px;
+}
+
+.filter-btn {
+    height: 30px;
+    line-height: 31px !important;
+}
+.export-bg {
+    color: #fff !important;
+    background-color: #0691d1 !important;
+}
+table.dataTable.no-footer {
+    border-bottom: 1px solid #ccc;
+}
+
+.es-card {
+    width: 200px;
+    position: absolute;
+    top: 105px;
+    border-radius: 25px;
+}
+.es-card .card-content {
+    background: #3BBAD1;
+    padding: 10px 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.es-card .card-content .card-title {
+  font-size: 26px;
+}
+.es-card .card-content .card-title span {
+    font-size: 12px;
+}
+.es-card .card-action {
+    background: #878787;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.es-card .card-action:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.av-card {
+    width: 200px;
+    position: absolute;
+    top: 105px;
+    left: 492px;
+    border-radius: 25px;
+}
+.av-card .card-content {
+    background: #02A099;
+    padding: 10px 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.av-card .card-content .card-title {
+    font-size: 26px;
+}
+.av-card .card-content .card-title span {
+    font-size: 12px;
+}
+.av-card .card-action {
+    background: #878787;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.av-card .card-action:last-child {
+    border-radius: 0 0 20px 20px;
+}
+.nofound-card {
+    height: 400px;
+    margin-top: 30px;
+}
+.nofound-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/************** Invoice Skeleton *************/
+.header-top-skeleton .header-skeleton {
+    width: 175px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    background: #8d8d8d;
+    border-radius: 5px;
+}
+.header-top-skeleton .header-animate {
+    animation: shimmer 2s infinite linear;
+    /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+    background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+    background-size: 1000px 100%;
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+.invoice-table-skeleton .table-header-skeleton {
+    width: 175px;
+    height: 12px;
+    position: relative;
+    top: 35px;
+    background: #8d8d8d;
+    border-radius: 5px;
+}
+.invoice-table-skeleton .es-card .card-content {
+    height: 62px;
+}
+.invoice-table-skeleton .av-card .card-content {
+  height: 62px;
+}
+.invoice-table-skeleton .es-card .card-action {
+    height: 28px;
+}
+.invoice-table-skeleton .es-header-skeleton {
+    width: 135px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    background: #8d8d8d;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.invoice-table-skeleton .export-bg {
+    width: 102px;
+    float: right;
+    cursor: none;
+}
+.invoice-table-skeleton .filter-skeleton {
+    width: 270px;
+    margin-right: 10px;
+}
+.invoice-table-skeleton .animate {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+    background-size: 1000px 100%;
+}
+.invoice-table-skeleton .es-animate {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #00839b 4%, #00677a 25%, #00677a 36%);
+    background-size: 1000px 100%;
+    opacity: 0.3;
+}
+@keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+}
+
+/************ Account Details Table Skeleton **********/
+.invoice-table-list-skeleton .table-header-skeleton {
+    width: 175px;
+    height: 12px;
+    position: relative;
+    top: 35px;
+    background: #8d8d8d;
+    border-radius: 5px;
+  }
+  .invoice-table-list-skeleton .table-header-search {
+    width: 260px;
+    height: 30px;
+    border-radius: 20px;
+    float: right;
+    top: 0px;
+    position: relative;
+    border: 1px solid #c7c7c7;
+  }
+  .invoice-table-list-skeleton table {
+    margin-top: 25px;
+  }
+  .invoice-table-list-skeleton tr {
+    border-bottom: 0px;
+  }
+  .invoice-table-list-skeleton thead tr {
+    height: 48px;
+    background-color: #dbdada;
+  }
+  .invoice-table-list-skeleton table.striped > tbody > tr > td {
+    height: 50px;
+  }
+  .invoice-table-list-skeleton .table-td-skeleton {
+    width: 70%;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    background: #8d8d8d;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .invoice-table-list-skeleton .animate {
+    animation : shimmer 2s infinite linear;
+    background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+    background-size: 1000px 100%;
+  }
+  .invoice-table-list-skeleton .header-animate {
+    animation : shimmer 2s infinite linear;
+    /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+    background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+    background-size: 1000px 100%;
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  /************ Responsive CSS ************/
+
+@media only screen and (max-width: 600px) { 
+  .invoice-list-wrapper .responsive-table .top .action-filters .dataTables_filter {
+      width: 100% !important;
+      margin-top: 120px !important;
+  }
+  .invoice-filter-action {
+      margin-top: 115px !important;
+  }
+  .invoice-action {
+      top: 6px !important;
+      line-height: 42px !important;
+  }
+  .es-card {
+      width: 180px !important;
+  }
+  .av-card {
+      width: 180px !important;
+      right: 23px !important;
+      left: auto !important;
+  }
+  .nofound-card {
+    margin-top: 50px;
+  }
+  table.dataTable.dtr-inline.collapsed > tbody > tr[role='row'] > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr[role='row'] > th:first-child:before {
+    top: 34px !important;
+  }
+
+  /******** Skeleton Css **********/
+  .invoice-table-skeleton .invoice-list-wrapper {
+    margin-top: 168px !important;
+  }
+
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {  
+  .invoice-list-wrapper {
+    margin-top: 60px !important;
+  }
+  .es-card {
+    width: 165px !important;
+  }
+  .av-card {
+    width: 165px !important;
+    left: 195px !important;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .invoice-data-table .dropdown-content {
+    left:-85px !important;
+  }
+}

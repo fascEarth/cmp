@@ -1,0 +1,217 @@
+.login-bg {
+  /* background-image: url(../../../../../app/views/assets/img/login/BG-Login.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #F4FFFE; */
+  background: linear-gradient(45deg,#013850,#0773a5)!important;
+}
+
+.login-bg-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: inline-block;
+}
+.login-bg-img  img {
+  width: 100%;
+  position: absolute;
+  top: -162px;
+}
+
+#login-page .login-card {
+  height: 100%;
+  position: fixed;
+  display: flex;
+  right: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+#login-page .login-form {
+  width: 100%;
+}
+
+#login-page .card-panel {
+ border-radius: 0px;
+}
+
+#login-page .bg-opacity-8 {
+  background-color: #fff;
+}
+
+.login-btn {
+  height: 47px;
+  padding: 7px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #212121;
+}
+
+a {
+  color: #205865;
+  font-weight: 500;
+}
+
+.gradient-45deg-purple-deep-orange {
+  border-radius: 7px;
+  background: #06597F !important;
+  background: #06597F !important;
+}
+
+.separator {
+  overflow: hidden;
+  text-align: center;
+  color: #1E1E1E;
+  font-weight: 600;
+}
+.separator:before,
+.separator:after {
+  background-color: #979797;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+.separator:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.separator:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* Input field  Css*/
+.input-field>label {
+  color: #BDBEC6;
+}
+.input-field.input-outlined > input {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  float: none;
+  display: block;
+  border-radius: 7px;
+  transition: box-shadow, border-color 0.15s;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #7BCCC8;
+  box-shadow: 0 1px 0 0px #7BCCC8;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.input-field .prefix {
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  color: #90B2BA;
+}
+
+.input-field .prefix.active {
+  color: #7BCCC8;
+}
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #c7c7c7;
+}
+
+[type=checkbox]:checked+span:not(.lever):before {
+  border-right: 2px solid #7BCCC8;
+  border-bottom: 2px solid #7BCCC8;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #01404F;
+}
+
+/* Social media */
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    /* border:2px solid #ddd; */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 40px;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    margin: 0px 5px;
+}
+
+/* googleBtn button class*/
+.googleBtn{
+  background: #fff;
+  color: #dd4b39 !important;
+}
+
+.googleBtn:before{ 
+  font-family: "FontAwesome";
+  content: "\f1a0"; 
+}
+
+.googleBtn:hover{
+  color: #4060A5;
+  background: #fff;
+  border-color: #4060A5; 
+}
+
+/* githubBtn button class*/
+.githubBtn{
+  background: #fff;
+  color: #444444 !important;
+}
+
+.githubBtn:before{
+  font-family: "FontAwesome";
+  content: "\f09b"; 
+      
+}
+
+.githubBtn:hover{
+  color: #00ABE3;
+  background: #fff;
+  border-color: #00ABE3;
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {  
+  .login-bg-img img {
+    top: -25px !important;
+  }
+}
+
+@media only screen and (min-width: 1920px)
+{ 
+  .input-field .prefix {
+    top: 4px !important;
+  }
+}

@@ -1,0 +1,735 @@
+#main .content-wrapper-before {
+  height: 100px !important;
+}
+.card-title {
+font-weight: 600 !important;
+}
+.collection {
+  border: 0;
+  margin: 0;
+}
+.navbar #profile-dropdown .collection .collection-item {
+	padding: 10px 20px;
+	font-size: 15px;
+  line-height: 1.5rem;
+}
+.navbar #profile-dropdown .collection .collection-item.avatar {
+	padding-left: 72px;
+}
+.collection .collection-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px 10px 30px;
+  border-bottom: 0px;
+  background-color: transparent;
+  font-size: 15px;
+  line-height: 11px;
+}
+.collection .collection-item i {
+position: absolute;
+left: 0px;
+top: 6px;
+font-size: 22px;
+}
+
+/*********  Password Strangth *********/
+.default-text {
+color: #a4a4a4 !important;
+}
+.progress-bar_wrap {
+width: 100%;
+height: 5px;
+background: #FFF;
+display: inline-block;
+vertical-align: middle;
+overflow: hidden;
+border-radius: 5px;
+}
+.progress-bar_text {
+display: inline-block;
+color: #aaa;
+margin-left: 5px;
+transition: .2s;
+}
+.pas-strength-container .progress-bar_item {
+display: inline-block;
+height: 100%;
+width: 32.5%;
+margin-right: .8%;
+border-radius: 5px;
+float: left;
+transition: background-color .2s, visisility .1s;
+}
+.pas-strength-container .progress-bar_item-1.active {
+background-color: #FF4B47;
+}
+.pas-strength-container .progress-bar_item-2.active {
+background-color: #F9AE35;
+}
+.pas-strength-container .progress-bar_item-3.active {
+background-color: #2DAF7D;
+}
+/*********  Password Strangth *********/
+
+.phone-code-flog {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+.phone-code-arrow {
+  position: absolute;
+  top: 8px;
+  right: -18px;
+}
+.table-header {
+  position: absolute;
+  top: -20px;
+  right: 32px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: none;
+}
+table th {
+  border-top:1px solid #c7c7c7;
+  border-bottom:1px solid #c7c7c7;
+}
+table.dataTable.no-footer {
+border-bottom: 1px solid #ccc;
+}
+/* #main .section-data-tables .dataTables_wrapper table.dataTable tbody {
+height: auto;
+} */
+/*------------- Tab Css -----------*/
+.tab-card {
+  height: 75px;
+  margin-top: 15px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.tabs {
+  height: 75px;
+}
+.tabs .tab {
+  line-height: 78px;
+  height: 75px;
+  text-transform: capitalize;
+}
+.tabs .tab a {
+color: #333;
+}
+.tabs .tab a.active {
+  color: #06597F;
+  font-weight: 600;
+  background-color: #e6f8fb;
+}
+.tabs .tab a:focus {
+  background-color: #e6f8fb;
+}
+.tabs .indicator {
+  background: linear-gradient(45deg,#2598cb,#035981)!important;
+}
+
+.input-field .prefix {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  font-size: 20px;
+  color: #90B2BA;
+}
+
+@media only screen and (min-width: 1920px)
+{  
+  .tab-card {
+      margin-top: 0;
+  }
+  .input-field .prefix  {
+    top: 0px !important;
+  }
+}
+
+/* Input field  Css*/
+.input-field>label {
+  color: #BDBEC6;
+}
+.input-field.input-outlined > input {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  float: none;
+  display: block;
+  border-radius: 7px;
+  transition: box-shadow, border-color 0.15s;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #7BCCC8;
+  box-shadow: 0 1px 0 0px #7BCCC8;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.input-field .prefix {
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  font-size: 20px;
+  color: #90B2BA;
+}
+
+.input-field .prefix.active {
+  color: #7BCCC8;
+}
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #D9D9DB;
+}
+
+[type=checkbox]:checked+span:not(.lever):before {
+  border-right: 2px solid #7BCCC8;
+  border-bottom: 2px solid #7BCCC8;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #01404F;
+}
+
+input:not([type]):disabled, input:not([type])[readonly='readonly'], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly='readonly'], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly='readonly'], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly='readonly'], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly='readonly'], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly='readonly'], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly='readonly'], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly='readonly'], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly='readonly'], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly='readonly'], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly='readonly'], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly='readonly'], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly='readonly'] {
+  color: rgba(0, 0, 0, .42);
+  border-bottom: 1px solid #c7c7c7;
+}
+
+textarea {
+width: 99%;
+height: 200px;
+background-color: transparent;
+border: 1px solid #c7c7c7;
+border-radius: 7px;
+padding: 15px;
+}
+
+/* Select Box Css*/
+.select-wrapper input.select-dropdown {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  float: none;
+  display: block;
+  border-radius: 7px;
+  z-index: 0;
+  transition: box-shadow, border-color 0.15s;
+}
+.select-wrapper .caret {
+top: 1px;
+right: 9px;
+fill: #636578;
+}
+.select-wrapper + label {
+font-size: 15px;
+font-weight: 600;
+position: absolute;
+top: 14px;
+left: 22px !important;
+}
+.select-wrapper input.select-dropdown:focus {
+border-color: #7BCCC8;
+box-shadow: 0 1px 0 0px #7bccc8;
+}
+.select-dropdown.dropdown-content {
+  top: 48px !important;
+  height: 200px !important;
+  border-radius: 7px;
+}
+
+/*********** otp code input box css ***********/
+.verification-code {
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.control-label {
+  display: block;
+  font-weight: 900;
+  color: #727272 !important;
+  text-align: left;
+  padding-bottom: 5px;
+}
+.verification-code--inputs input[type="text"] {
+  border: 2px solid #c7c7c7;
+  width: 46px;
+  height: 46px;
+  background: #FFF;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 0 1px;
+}
+.verification-code--inputs input[type="text"]:focus {
+  border: 1px solid #6DCCDD !important;
+  box-shadow: 0 1px 0 0 #6dccdd !important;
+}
+
+
+/********** Modal Css *********/
+.modal {
+width: 50%;
+max-height:80%;
+border-radius: 10px;
+background-color: #fff;
+}
+.modal .modal-footer {
+  border-top: 1px solid #ccc;
+}
+.modal-invite {
+  display: flex;
+  width: 110px;
+  position: absolute;
+  left: 44%;
+}
+
+/************ Activity Data table css *************/
+.dataTables_wrapper {
+top: -15px;
+}
+#main .section-data-tables .dataTables_wrapper table.dataTable thead th {
+border-top: 1px solid #c7c7c7;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#activity-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+position: relative;
+top: -17px;
+right: -35px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #activity-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #activity-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #activity-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+/************ Activity Data table css *************/
+/************ Audit Log Data table css *************/
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter {
+display: block;
+} 
+#main .section-data-tables .dataTables_wrapper .dataTables_length#auditlogs-datatable_length {
+display: none;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+position: relative;
+top: -17px;
+right: -35px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+width: 230px;
+height: 30px;
+margin-left: 5px;
+padding: 0px 10px;
+border: 1px solid #ccc;
+border-radius: 20px;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+box-shadow: none;
+}
+#main .section-data-tables .dataTables_wrapper #auditlogs-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #auditlogs-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #auditlogs-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+color: #fff!important;
+border: 1px solid #2196f3;
+border-radius: 6px;
+background: #2196f3;
+box-shadow: 0 0 8px 0 #2196f3;
+}
+/************ Audit Log Data table css *************/
+
+
+
+/************ SSH Keys Data table css *************/
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter {
+  display: block;
+  } 
+  #main .section-data-tables .dataTables_wrapper .dataTables_length#security-ssh-datatable_length {
+  display: none;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+  position: relative;
+  top: -17px;
+  right: -70px;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+  width: 230px;
+  height: 30px;
+  margin-left: 5px;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input:focus {
+  box-shadow: none;
+  }
+  #main .section-data-tables .dataTables_wrapper #security-ssh-datatable_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #security-ssh-datatable_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #security-ssh-datatable_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #fff!important;
+  border: 1px solid #2196f3;
+  border-radius: 6px;
+  background: #2196f3;
+  box-shadow: 0 0 8px 0 #2196f3;
+  }
+  /************ SSH Keys Data table css *************/
+
+.top .action-filters {
+    -webkit-box-flex: .95;
+    -webkit-flex-grow: .95;
+    -ms-flex-positive: .95;
+    flex-grow: .95;
+}
+#security-ssh-datatable_wrapper .top .action-filters {
+    -webkit-box-flex: .95;
+    -webkit-flex-grow: .95;
+    -ms-flex-positive: .95;
+    flex-grow: .65 !important;
+}
+
+
+/*********** Card Skeleton ********/
+.card-tab-skeleton .tab-heading-skeleton {
+  width: 165px;
+  height: 12px;
+  position: relative;
+  top: 34px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.card-tab-skeleton .tabs .indicator {
+  background: transparent;
+}
+.card-tab-skeleton .header-skeleton {
+  width: 175px;
+  height: 12px;
+  position: relative;
+  top: -12px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.card-tab-skeleton .header-animate {
+  animation: shimmer 2s infinite linear;
+  /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+  background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+  background-size: 1000px 100%;
+}
+.card-tab-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************** Modify Password ************/
+.modify-password-skeleton .modify-header {
+  width: 175px;
+  height: 12px;
+  position: relative;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.modify-password-skeleton .modify-input {
+  width: 100%;
+  height: 47px;
+  position: relative;
+  background: #8d8d8d;
+  border-radius: 7px;
+  margin-bottom: 8px;
+}
+.modify-password-skeleton .modify-collection-item {
+  width: 295px;
+  height: 12px;
+  top: 15px;
+  position: relative;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.modify-password-skeleton .modify-btn {
+  width: 250px;
+  height: 36px;
+  position: relative;
+  display: inline-block;
+  background: #8d8d8d;
+  border-radius: 7px;
+  box-shadow: none;
+}
+.modify-password-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%) !important;
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+/************** Modify Password ************/
+
+/************ Two-Factor Authentication Skeleton **********/
+.factor-auth-skeleton .fact-auth-img {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.factor-auth-skeleton .fact-auth-header {
+  width: 350px;
+  height: 12px;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.factor-auth-skeleton .fact-auth-p {
+  width: 80%;
+  height: 12px;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto !important;
+}
+.factor-auth-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************ Table Skeleton **********/
+.security-skeleton .table-header-skeleton {
+  width: 175px;
+  height: 12px;
+  position: relative;
+  top: 35px;
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+.security-skeleton .table-header-search {
+  width: 260px;
+  height: 30px;
+  border-radius: 20px;
+  float: right;
+  top: 0px;
+  position: relative;
+  border: 1px solid #c7c7c7;
+}
+.security-skeleton tr {
+  border-bottom: 0px;
+}
+.security-skeleton thead tr {
+  height: 48px;
+  background-color: #dbdada;
+}
+.security-skeleton table.striped > tbody > tr > td {
+  height: 50px;
+}
+.security-skeleton .table-td-skeleton {
+  width: 70%;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  background: #8d8d8d;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.security-skeleton .animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+  background-size: 1000px 100%;
+}
+.security-skeleton .header-animate {
+  animation : shimmer 2s infinite linear;
+  /* background: linear-gradient(to right, #ababab 4%, #8d8d8d 25%, #8d8d8d 36%); */
+  background: linear-gradient(to right, #00577e 4%, #024766 25%, #024766 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/************ Responsive CSS ************/
+@media only screen and (max-width: 600px) {
+  .verifi-col-sm {
+    left: 0 !important;
+  }
+  .psw-length-sm {
+    margin-top: 20px !important;
+  }
+  .verification-code--inputs input[type="text"] {
+    width: 45px !important;
+    height: 45px !important;
+    margin: 0 !important;
+  }
+  .modal {
+    width: 90% !important;
+  }
+  .table-header {
+    top: 6px !important;
+  }
+  /*#security-ssh-datatable {
+    margin-top: 35px !important;
+  }*/
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter {
+    margin-top: 55px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    top: -10px !important;
+    right: -5px !important;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter {
+  margin-top: 48px !important;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+  right: -3px !important;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter {
+  margin-top: 0px !important;
+}
+#main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter label input, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable label input {
+  width: 190px !important;
+  margin-left: 60px !important;
+}
+#main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before {
+  top: 19px !important;
+}
+ 
+/********** Skeleton Css *********/
+  .factor-auth-skeleton .fact-auth-header {
+    width: 50% !important;
+  }
+  .factor-auth-skeleton .fact-auth-p {
+    width: 100% !important;
+  }
+  .factor-btn-sk-sm {
+    margin-top: 50px !important;
+    box-shadow: none;
+  }
+  .security-skeleton .table-header-skeleton {
+    width: 100px !important;
+  }
+  .security-skeleton .table-header-search {
+    width: 165px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {  
+  .verifi-col-sm {
+    left: 21% !important;
+  }
+  .psw-length-sm { 
+    margin-top: 15px !important;
+  }
+  .verification-code--inputs input[type="text"] {
+    width: 45px !important;
+    height: 45px !important;
+    margin: 0px 1px !important;
+  }
+  .table-header {
+    top: -10px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#auditlogs-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: -20px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#activity-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: -25px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: 30px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before {
+    top: 20px !important;
+  }
+
+  /********** Skeleton Css *********/
+  .factor-btn-sk-sm {
+    margin-top: 50px !important;
+    box-shadow: none;
+  }
+  .security-skeleton .table-header-search {
+    margin-bottom: 15px !important;
+  }
+
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px) { 
+  .table-header {
+    right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .input-field .prefix {
+    top:0px !important;
+  }
+  #main .section-data-tables .dataTables_wrapper .top .action-filters .dataTables_filter#security-ssh-datatable_filter, #main .section-data-tables .dataTables_wrapper .dataTables_length#team-datatable {
+    right: -260px !important;
+  }
+  .table-header {
+    top: -42px !important;
+  }
+  #security-ssh-datatable {
+    margin-top: 0 !important;
+  }
+}
+
+/************ End Responsive CSS ************/

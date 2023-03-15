@@ -1,0 +1,179 @@
+/* .login-bg {
+  background-image: url(../../../../../app/views/assets/img/login/BG-Login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F4FFFE;
+} */
+
+.login-bg {
+  /* background-image: url(../../../../../app/views/assets/img/login/BG-Login.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #F4FFFE; */
+  background: linear-gradient(45deg,#013850,#0773a5)!important;
+}
+
+.login-bg-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: inline-block;
+}
+.login-bg-img  img {
+  width: 100%;
+  position: absolute;
+  top: -162px;
+}
+
+#login-page .login-card {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  right: 0;
+  height: 100%;
+  margin: 0;
+}
+
+#login-page .card-panel {
+ border-radius: 0px;
+}
+
+#login-page .bg-opacity-8 {
+  background-color: #fff;
+}
+
+.forgot-btn {
+  height: 47px;
+  padding: 7px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #212121;
+}
+
+a {
+  color: #205865;
+  font-weight: 500;
+}
+
+.gradient-45deg-purple-deep-orange {
+  border-radius: 7px;
+  background: #06597F !important;
+  background: #06597F !important;
+}
+
+/* Input field  Css*/
+.input-field>label {
+  color: #BDBEC6;
+}
+.input-field.input-outlined > input {
+  border: 1px solid #c7c7c7;
+  padding: 0px 15px;
+  width: calc(100% - 2.5rem);
+  float: none;
+  display: block;
+  border-radius: 7px;
+  transition: box-shadow, border-color 0.15s;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #7BCCC8;
+  box-shadow: 0 1px 0 0px #7BCCC8;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.input-field .prefix {
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  color: #90B2BA;
+}
+
+.input-field .prefix.active {
+  color: #7BCCC8;
+}
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #D9D9DB;
+}
+
+[type=checkbox]:checked+span:not(.lever):before {
+  border-right: 2px solid #7BCCC8;
+  border-bottom: 2px solid #7BCCC8;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #01404F;
+}
+
+input:not([type]):disabled, input:not([type])[readonly='readonly'], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly='readonly'], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly='readonly'], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly='readonly'], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly='readonly'], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly='readonly'], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly='readonly'], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly='readonly'], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly='readonly'], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly='readonly'], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly='readonly'], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly='readonly'], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly='readonly'] {
+  border-bottom: 2px solid #c7c7c7;
+  cursor: not-allowed;
+}
+
+.verification-code {
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.control-label {
+  display: block;
+  font-weight: 900;
+  color: #727272 !important;
+  text-align: left;
+  padding-bottom: 5px;
+}
+.verification-code--inputs input[type="text"] {
+  border: 2px solid #c7c7c7;
+  width: 46px;
+  height: 46px;
+  background: #FFF;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 0 5px;
+}
+.verification-code--inputs input[type="text"]:focus {
+  border: 1px solid #6DCCDD !important;
+  box-shadow: 0 1px 0 0 #6dccdd !important;
+}
+
+/* @media only screen and (min-width: 992px)
+{ 
+.verification-code--inputs input[type="text"] {   
+  margin: 0 9px 0 8px !important;
+}
+} */
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {  
+  .verification-code--inputs input[type="text"] {
+    margin: 0 3px !important;
+  }
+}
+
+@media only screen and (min-width: 1920px)
+{ 
+.verification-code--inputs input[type="text"] {   
+  margin: 0 25px !important;
+}
+.input-field .prefix {
+  top: 3px;
+}
+}
+

@@ -1,0 +1,36 @@
+[
+    {
+      "page": "home",
+      "accessDirect":true,
+      "path": "signup/home/view.php",
+      "scripts": {
+        "realScripts":[],
+        "virtualScripts":{
+          "getscript":{
+            "plugins":[
+  
+            ],
+            "primary":[
+              
+              "app/views/html/signup/home/index.js",
+              
+              "https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"
+              
+            ],
+            "secondary":[
+              
+              
+              "app/views/app-assets/js/scripts/advance-ui-modals.js"
+              
+              
+              
+              
+  
+            ]
+          }
+        }
+      }
+  }
+    
+    ]
+    

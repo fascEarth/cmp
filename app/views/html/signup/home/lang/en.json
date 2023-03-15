@@ -1,0 +1,100 @@
+{
+
+    "1001":"Invalid Credit Card!",
+    "603": "Invalid OTP",
+    "604":"OTP Token Expired.",
+    "601":"SMS verification failed",
+
+    "signup_toastr_dobltdoi":"DOB must be less than the Date Of Issue.",
+    "signup_toastr_entervercode":"'Please enter the verification code.'",
+    "signup_toastr_enterphone":"Please enter the mobile Number.",
+    "signup_toastr_limit9char":"Please enter no more than 9 characters",
+    "signup_toastr_mobcode":"Please enter the mobile code.",
+    "signup_toastr_mobareg":"Mobile number is already registered.",
+
+    "signup_toastr_selAcity":"Select any city",
+    "signup_toastr_selAcountry":"Select any country",
+    "signup_toastr_selApoid":"Select any Proof ID",
+    "signup_toastr_selApouse":"Select any Purpose of use",
+    "signup_toastr_selAindustry":"Select any Industry",
+    "signup_toastr_selAdataclassifi":"Select any Data Classification", 
+    "signup_toastr_selAnationality":"Select Nationality",
+    "signup_toastr_selectAny":"Select Any",
+    
+    "signup_toastr_emailversuccess":"Email verified successfully!",
+    "signup_toastr_emailcodesentsuccess":"Email code sent successfully!",
+    "signup_toastr_smsverifysuccess":"SMS verified successfully!",
+    "signup_toastr_smscodesentsuccess":"SMS code sent successfully!",
+    
+
+
+    "tab_general_next":"NEXT",
+    "tab_general_back":"BACK",
+    "tab_general_finish":"FINISH",    
+    
+    "tab_title_accreate":"Account Creation",
+    "tab_title_contvalid":"Contact Validation",
+    "tab_title_persorginfo":"Personal / Org Information",
+    "tab_title_payminfo":"Payment Methods",
+    "tab_title_sbt":"Submit",
+    
+    "tab_contvalid_primary_title":"Please confirm your email address & phone number.",
+    "tab_contvalid_secondary_title":"We sent 6-digit verification code to following contact.",
+    "tab_contvalid_email_addr_label":"Email Address",
+    "tab_contvalid_common_vcode_label":"Verification Code",
+    "tab_contvalid_common_sendcode_label":"Send Code",
+    "tab_contvalid_common_resendcode_label":"Resend Code",
+    "tab_contvalid_common_verify_label":"Verify",
+    "tab_contvalid_phone_addr_label":"Phone Number",
+    "tab_contvalid_common_verified_label":"Verified",
+    "tab_contvalid_common_otperror_label":"Please enter otp.",
+    "tab_contvalid_common_footer_title":"The OTP will be expire in 5 minutes. On expiry of time, please resend it.",
+    
+    "tab_persorginfo_tab_poi":"PERSONAL INFO",
+    "tab_persorginfo_tab_bilAddr":"BILLING ADDRESS",
+    "tab_persorginfo_tab_orgInfo":"ORGANIZATION INFO",
+    
+    "tab_persorginfo_tab_poi_label_famName":"Family Name",
+   "tab_persorginfo_tab_poi_label_firstName": "First Name",
+   "tab_persorginfo_tab_poi_label_middleName": "Middle Name",
+   "tab_persorginfo_tab_poi_label_selNationality": "Select Nationality",
+   "tab_persorginfo_tab_poi_label_proofOId": "Proof of ID",
+   "tab_persorginfo_tab_poi_label_idNumber": "ID Number",
+   "tab_persorginfo_tab_poi_label_placeOIs": "Place of Issuance",
+   "tab_persorginfo_tab_poi_label_dateOfissue": "Date of issue",
+   "tab_persorginfo_tab_poi_label_expiry": "Date of expiry",
+   "tab_persorginfo_tab_poi_label_purpofUse": "Purpose of the use",
+   "tab_persorginfo_tab_poi_label_dateOfBirth": "Date of Birth",
+   
+  "tab_persorginfo_tab_bilAddr_label_bilNum": "Building Number",
+  "tab_persorginfo_tab_bilAddr_label_streetRd": "Street / Road",
+  "tab_persorginfo_tab_bilAddr_label_postalZip": "Postal / Zip Code",
+  "tab_persorginfo_tab_bilAddr_label_pobox": "P.O. Box",
+  "tab_persorginfo_tab_bilAddr_label_city": "City",
+  "tab_persorginfo_tab_bilAddr_label_country": "Country",
+  "tab_persorginfo_tab_bilAddr_label_otherscity": "Others City",
+
+ "tab_persorginfo_tab_orgInfo_label_compName": "Company Name",
+ "tab_persorginfo_tab_orgInfo_label_industry": "Industry",
+ "tab_persorginfo_tab_orgInfo_label_othersindustry": "Others Industry",
+ "tab_persorginfo_tab_orgInfo_label_commregNum": "Commercial Registration Number (CR)",
+ "tab_persorginfo_tab_orgInfo_label_issueDt": "Issue Date",
+ "tab_persorginfo_tab_orgInfo_label_expireDt": "Expire Date",
+ "tab_persorginfo_tab_orgInfo_label_dataClassify": "Data classification",
+ "tab_persorginfo_tab_orgInfo_label_purpose": "Purpose",
+
+"tab_payminfo_label_title" :"Add your card for future billings",
+"tab_payminfo_label_addcard" :"ADD CARD",
+"tab_payminfo_label_saved" :"SAVED",
+"tab_payminfo_label_footer_title" :"Detacloud charges your card SAR 1 as part of the credit card verification process.",
+"tab_payminfo_label_footer_subtitle" :"We will refunds the SAR 1 after verification is complete.",
+
+
+   "tab_sbt_label_scr1_title" : "You’ve successfully completed your KYC process !",
+   "tab_sbt_label_scr1_subtitle" : "You can now log in to your account and order detacloud platform.",
+   "tab_sbt_label_scr2_title" : "KYC Document Verification !",
+   "tab_sbt_label_scr2_subtitle_0" : "Detasad Legal team is reviewing your documents provided, to confirm your",
+   "tab_sbt_label_scr2_subtitle_1" : "account sign-up status. This process may take upto 3 Days, we will notify",
+   "tab_sbt_label_scr2_subtitle_2" : "you of the outcome via email address."
+
+}

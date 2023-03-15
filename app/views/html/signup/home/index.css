@@ -1,0 +1,1278 @@
+body {
+	background-color: #F7F7F9 !important;
+}
+
+/* Input field  Css*/
+.input-field>label {
+	color: #BDBEC6;
+}
+
+.input-field.input-outlined > input {
+	border: 1px solid #c7c7c7;
+	padding: 0px 15px;
+	width: calc(100% - 2.5rem);
+	margin: 0 0 25px 0;
+	float: none;
+	display: block;
+	border-radius: 7px;
+	transition: box-shadow, border-color 0.15s;
+}
+
+#wiz_orginfo_form .input-field.input-outlined > input {
+	margin: 0 !important;
+}
+
+.input-field.input-outlined > input:focus:not([readonly]) {
+	border-color: #7BCCC8;
+	box-shadow: 0 1px 0 0px #7BCCC8;
+}
+
+.input-field.input-outlined > label {
+	left: 27px;
+	display: inline-flex;
+	width: auto !important;
+}
+
+.input-field.input-outlined > label.active {
+	background: white;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+	transform: translateY(-1.75rem);
+	top: 18px;
+	color: #06597F;
+	left: 25px;
+	font-size: 12px;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+	border-bottom: 1px solid #c7c7c7;
+  /* box-shadow: none; */;
+}
+
+input:not([type]):disabled, input:not([type])[readonly='readonly'], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly='readonly'], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly='readonly'], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly='readonly'], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly='readonly'], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly='readonly'], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly='readonly'], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly='readonly'], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly='readonly'], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly='readonly'], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly='readonly'], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly='readonly'], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly='readonly'] {
+	border-bottom: 2px solid #c7c7c7;
+}
+
+.input-field div.error {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	z-index: 1;
+}
+#dcc_cont_val_verification-error, #dcc_cont_val_verification_phone-error {
+    top: 72px !important;
+    left: 8px !important;
+}
+
+.input-field .date-icon {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 30px;
+	top: 12px;
+	font-size: 20px;
+	color: #90B2BA;
+}
+
+.input-field .prefix.active {
+	color: #7BCCC8;
+}
+
+.custom-select-label {
+	font-size: 12px !important;
+	color: #06597F !important;
+	left: 26px !important;
+	background: white;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+	transform: translateY(-1.75rem) !important;
+	top: 18px !important;
+	z-index: 2;
+}
+
+/* .icon-input.input-field.input-outlined > label.active {
+  left: -18px;
+}
+.icon-input.input-field.input-outlined > input {
+  padding: 0px 15px 0px 50px;
+  width: 87%;
+} */
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+	border: 2px solid #D9D9DB;
+}
+
+[type=checkbox]+span:not(.lever):before, [type=checkbox]:not(.filled-in)+span:not(.lever):after {
+	border: 2px solid #D9D9DB;
+}
+
+[type=checkbox]:checked+span:not(.lever):before {
+	border-right: 2px solid #7BCCC8;
+	border-bottom: 2px solid #7BCCC8;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+	color: #01404F;
+}
+
+.input-field.col label {
+	color: #BDBEC6;
+}
+
+.file-path:focus {
+	border: 1px solid #26c6da !important;
+	box-shadow: 0 1px 0 0 #26c6da !important;
+}
+
+.file-path-wrapper > input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+	box-shadow: 0 1px 0 0 #26c6da !important;
+}
+
+.id-proof .select-wrapper input.select-dropdown {
+	width: 94%;
+}
+
+.id-proof .select-wrapper .caret {
+	right: -16px;
+}
+
+.data-class .select-wrapper input.select-dropdown {
+	width: 104.5%;
+}
+
+.data-class .select-wrapper .caret {
+	right: -38px;
+}
+
+.data-class .org-info-class {
+	right: -26px;
+}
+
+/* Select Box Css*/
+.select-wrapper input.select-dropdown {
+	border: 1px solid #c7c7c7;
+	padding: 0px 15px;
+	width: calc(100% - 2.5rem);
+	float: none;
+	display: block;
+	border-radius: 7px;
+	transition: box-shadow, border-color 0.15s;
+}
+
+.select-wrapper .caret {
+	top: 1px;
+	right: 9px;
+	fill: #636578;
+}
+
+.select-wrapper + label {
+	font-size: 15px;
+	font-weight: 600;
+	position: absolute;
+	top: 14px;
+	left: 22px !important;
+}
+
+.select-wrapper input.select-dropdown:focus {
+	border-color: #7BCCC8;
+	box-shadow: 0 1px 0 0px #7bccc8;
+}
+
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single, .select2-container--default.select2-container--focus .select2-selection--multiple {
+	border-bottom: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	border: 1px solid #c7c7c7;
+	padding: 0px 15px;
+	float: none;
+	display: block;
+	border-radius: 7px;
+	z-index: 0;
+	transition: box-shadow, border-color 0.15s;
+}
+
+.browser-default input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #26c6da;
+	box-shadow: 0 1px 0 0 #26c6da;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #636578 transparent transparent;
+	margin-left: -10px;
+}
+
+.select2-container .select2-selection--single {
+	height: 72px !important;
+}
+
+.select2-container--open .select2-dropdown {
+	left: 0;
+	top: -25px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+	color: #212121;
+}
+
+.city-dropdown .dropdown-content {
+	height: 220px !important;
+}
+
+.industry-dropdown .dropdown-content {
+	height: 220px !important;
+}
+/* .select-wrapper input.select-dropdown:invalid {
+color: #BDBEC6 !important;
+} */
+/* Select Box Css*/
+
+
+#main .content-wrapper-before {
+	height: auto;
+}
+
+.navbar .navbar-dark {
+	background: #F7F7F9 !important;
+}
+
+.navbar .navbar-dark ul a {
+	color: #616377;
+}
+
+.logo-img {
+	width: 220px;
+	position: relative;
+	top: 8px;
+}
+
+.org-info-class {
+	position: relative;
+	font-size: 40px;
+	right: 0px;
+	top: 4px;
+	cursor: pointer;
+}
+
+/********* Processing CSS ********/
+.header-processing {
+	font-size: 20px;
+	font-weight: 900;
+	color: #015578;
+  }
+  .header-processing span {
+	animation-name: blink;
+	animation-duration: 1.4s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+  }
+  .header-processing span:nth-child(2) {
+	animation-delay: 0.2s;
+  }
+  .header-processing span:nth-child(3) {
+	animation-delay: 0.4s;
+  }
+  @keyframes blink {
+	0% {
+	  opacity: 0.2;
+	}
+	20% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 0.2;
+	}
+  }
+  
+  .processing-alert-message {
+	font-size: 17px;
+	font-weight: 400;
+	color: #015578;
+  }
+  .progress-off {
+	opacity: 44%;
+  }
+  .progress-container {
+	position: relative;
+	display: block;
+	width: 550px;
+	margin:0 auto;
+  }
+  .progress-title {
+	position: absolute;
+	top: -22px;
+	right: 2px;
+	color: #015578;
+	font-weight: 700;
+  }
+  .progress {
+	width: 550px;
+	height: 15px;
+	position: relative;
+	margin: 35px auto;
+	  background-color: #F2F2F2;
+	border-radius: 20px;
+  }
+  .progress-done {
+	width: 0;
+	height: 100%;
+	display: flex;
+	  background: #015578;
+	color: #f1f1f1;
+	font-size: 11px;
+	align-items: center;
+	border-radius: 20px;
+	justify-content: center;
+	box-shadow: 0 3px 3px -5px #015578, 0 2px 5px #015578;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+  }
+  /********* End Processing CSS ********/
+
+/* Wizard Css */
+@media only screen and (min-width: 993px) {
+	#main {
+		padding-left: 0px;
+	}
+
+	ul.stepper.horizontal::before {
+		box-shadow: none;
+	}
+
+	ul.stepper.horizontal {
+		min-height: 800px;
+	}
+
+	ul.stepper.horizontal .step .step-content {
+		height: auto;
+	}
+
+	ul.stepper.horizontal .step .step-content .step-actions {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	ul.stepper.horizontal .step .step-title::before {
+		width: 30px;
+		height: 30px;
+		background-color: #FFFFFF;
+		border: 3px solid #E4E5F9;
+		line-height: 30px;
+	}
+
+	ul.stepper.horizontal .step.active .step-title::before, ul.stepper.horizontal .step-title::before {
+		background-color: #FFF;
+		border: 3px solid #06597F;
+	}
+
+	ul.stepper.horizontal .step.done .step-title::before {
+		background-color: #06597F;
+		border: 0px;
+	}
+
+	ul.stepper .step .step-title:hover {
+		background-color: transparent;
+	}
+}
+
+.btn, .btn-large, .btn-small {
+	background-color: #06597F !important;
+}
+
+.contact-btn-w {
+	width: 160px;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+	background-color: #06597F;
+}
+
+.red {
+	background-color: #fff !important;
+	color: #000;
+}
+
+.col-border-right {
+	border-right: 2px solid #E4E5F9;
+}
+
+.verification-code {
+	max-width: 360px;
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.control-label {
+	display: block;
+	font-weight: 900;
+	color: #727272 !important;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.verification-code--inputs input[type="text"] {
+	border: 2px solid #c7c7c7;
+	width: 46px;
+	height: 46px;
+	background: #FFF;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 5px;
+	border-radius: 7px;
+}
+
+.verification-code--inputs input[type="text"]:focus {
+	border: 1px solid #6DCCDD !important;
+	box-shadow: 0 1px 0 0 #6dccdd !important;
+}
+
+/* tab css */
+.tabs .tab a {
+	color: #686868;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+	color: #000000;
+	background-color: transparent;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	outline: none;
+	background-color: transparent;
+}
+
+.tabs .indicator {
+	background-color: #85CBDA;
+}
+
+
+/* test */
+.form-container .field-container:first-of-type {
+	grid-area: name;
+}
+
+.form-container .field-container:nth-of-type(2) {
+	grid-area: number;
+}
+
+.form-container .field-container:nth-of-type(3) {
+	grid-area: expiration;
+}
+
+.form-container .field-container:nth-of-type(4) {
+	grid-area: security;
+}
+
+.field-container input {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.field-container {
+	position: relative;
+}
+
+.form-container {
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template-columns: auto auto;
+	grid-template-rows: 90px 90px 90px;
+	grid-template-areas: "name name""number number""expiration security";
+	max-width: 400px;
+	padding: 20px;
+	color: #707070;
+}
+
+label {
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+
+input {
+	margin-top: 3px;
+	padding: 15px;
+	font-size: 16px;
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #dcdcdc;
+}
+
+.ccicon {
+	height: 38px;
+	position: absolute;
+	right: 26px;
+	top: calc(40% - 24px);
+	width: 60px;
+}
+
+.padlock-icon {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+
+.credit-msg {
+	position: absolute;
+	font-size: 13px;
+	color: #69A4B0;
+}
+
+/*---------- Date Picker Css ----------*/
+.datepicker-date-display {
+	background-color: #06597F;
+}
+
+.datepicker-table td.is-today {
+	color: #1976d2;
+}
+
+.datepicker-table td.is-selected {
+	color: #fff;
+	background-color: #06597F;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+	padding: 0 1rem;
+	color: #43a7bd;
+}
+
+.datepicker-controls button:focus {
+	background-color: #06597F;
+}
+
+.datepicker-day-button:focus {
+	background-color: #b9e7fd;
+}
+
+/* ------------ Modal Css ---------- */
+.modal {
+	width: 70%;
+	max-height: 85%;
+	border-radius: 7px;
+}
+
+.collection .collection-item {
+	border-bottom: 0px;
+	background-color: transparent;
+}
+/* ------------ Modal Css ---------- */
+
+/* CREDIT CARD IMAGE STYLING */
+.preload * {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+
+.container {
+	width: 100%;
+	max-width: 400px;
+	max-height: 240px;
+	height: 54vw;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+#ccsingle {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+#ccsingle svg {
+	width: 100px;
+	max-height: 60px;
+}
+
+.creditcard svg#cardfront,
+.creditcard svg#cardback {
+	width: 100%;
+	-webkit-box-shadow: 1px 5px 6px 0px black;
+	box-shadow: 1px 5px 6px 0px black;
+	border-radius: 22px;
+}
+
+#generatecard {
+	cursor: pointer;
+	float: right;
+	font-size: 12px;
+	color: #fff;
+	padding: 2px 4px;
+	background-color: #909090;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: -25px;
+}
+
+/* CHANGEABLE CARD ELEMENTS */
+.creditcard .lightcolor,
+.creditcard .darkcolor {
+	-webkit-transition: fill .5s;
+	transition: fill .5s;
+}
+
+.creditcard .lightblue {
+	fill: #03A9F4;
+}
+
+.creditcard .lightbluedark {
+	fill: #0288D1;
+}
+
+.creditcard .red {
+	fill: #ef5350;
+}
+
+.creditcard .reddark {
+	fill: #d32f2f;
+}
+
+.creditcard .purple {
+	fill: #ab47bc;
+}
+
+.creditcard .purpledark {
+	fill: #7b1fa2;
+}
+
+.creditcard .cyan {
+	fill: #26c6da;
+}
+
+.creditcard .cyandark {
+	fill: #0097a7;
+}
+
+.creditcard .green {
+	fill: #66bb6a;
+}
+
+.creditcard .greendark {
+	fill: #388e3c;
+}
+
+.creditcard .lime {
+	fill: #d4e157;
+}
+
+.creditcard .limedark {
+	fill: #afb42b;
+}
+
+.creditcard .yellow {
+	fill: #ffeb3b;
+}
+
+.creditcard .yellowdark {
+	fill: #f9a825;
+}
+
+.creditcard .orange {
+	fill: #ff9800;
+}
+
+.creditcard .orangedark {
+	fill: #ef6c00;
+}
+
+.creditcard .grey {
+	fill: #bdbdbd;
+}
+
+.creditcard .greydark {
+	fill: #616161;
+}
+
+/* FRONT OF CARD */
+#svgname {
+	text-transform: uppercase;
+}
+
+#cardfront .st2 {
+	fill: #FFFFFF;
+}
+
+#cardfront .st3 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 600;
+}
+
+#cardfront .st4 {
+	font-size: 54.7817px;
+}
+
+#cardfront .st5 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+}
+
+#cardfront .st6 {
+	font-size: 33.1112px;
+}
+
+#cardfront .st7 {
+	opacity: 0.6;
+	fill: #FFFFFF;
+}
+
+#cardfront .st8 {
+	font-size: 24px;
+}
+
+#cardfront .st9 {
+	font-size: 36.5498px;
+}
+
+#cardfront .st10 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+}
+
+#cardfront .st11 {
+	font-size: 16.1716px;
+}
+
+#cardfront .st12 {
+	fill: #4C4C4C;
+}
+
+/* BACK OF CARD */
+#cardback .st0 {
+	fill: none;
+	stroke: #0F0F0F;
+	stroke-miterlimit: 10;
+}
+
+#cardback .st2 {
+	fill: #111111;
+}
+
+#cardback .st3 {
+	fill: #F2F2F2;
+}
+
+#cardback .st4 {
+	fill: #D8D2DB;
+}
+
+#cardback .st5 {
+	fill: #C4C4C4;
+}
+
+#cardback .st6 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+}
+
+#cardback .st7 {
+	font-size: 27px;
+}
+
+#cardback .st8 {
+	opacity: 0.6;
+}
+
+#cardback .st9 {
+	fill: #FFFFFF;
+}
+
+#cardback .st10 {
+	font-size: 24px;
+}
+
+#cardback .st11 {
+	fill: #EAEAEA;
+}
+
+#cardback .st12 {
+	font-family: 'Rock Salt', cursive;
+}
+
+#cardback .st13 {
+	font-size: 37.769px;
+}
+
+/* FLIP ANIMATION */
+.container {
+	perspective: 1000px;
+}
+
+.creditcard {
+	width: 100%;
+	max-width: 302px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition: -webkit-transform 0.6s;
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	transition: transform 0.6s, -webkit-transform 0.6s;
+	cursor: pointer;
+}
+
+.creditcard .front,
+.creditcard .back {
+	position: absolute;
+	width: 100%;
+	max-width: 400px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	color: #47525d;
+}
+
+.creditcard .back {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.creditcard.flipped {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+@media only screen and (min-width: 993px) {
+	ul.stepper.horizontal .step .step-title {
+		max-width: 232px;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+ 
+	.data-class .select-wrapper input.select-dropdown {
+		width: 110% !important;
+	}
+
+	.data-class .org-info-class {
+		right: -73px !important;
+	}
+}
+
+@media only screen and (min-width: 3024px) {
+ 
+	.data-class .select-wrapper input.select-dropdown {
+		width: 106.5% !important;
+	}
+}
+
+
+/*********** Over All Skeleton Css ***********/
+.form-page-skeleton .overall-page-skeleton ul.stepper.horizontal .step .step-title {
+	cursor: none;
+}
+
+.form-page-skeleton .overall-page-skeleton ul.stepper.horizontal .step.active .step-title::before, ul.stepper.horizontal .step-title::before {
+	border: 0;
+}
+
+.form-page-skeleton .overall-page-skeleton .tab-circle-heading {
+	width: 158px;
+	height: 12px;
+	position: relative;
+	top: 36px;
+	background: #8d8d8d;
+	border-radius: 5px;
+}
+
+.form-page-skeleton .overall-page-skeleton ul.stepper.horizontal .step .step-title::before {
+	font-size: 0;
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+	background-size: 1000px 100%;
+}
+
+.form-page-skeleton .overall-page-skeleton .card {
+	height: 450px;
+}
+
+.form-page-skeleton .overall-page-skeleton .card-inside1-skeleton {
+	width: 350px;
+	height: 12px;
+	position: relative;
+	top: 20px;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+}
+
+.form-page-skeleton .overall-page-skeleton .card-inside2-skeleton {
+	width: 350px;
+	height: 12px;
+	position: relative;
+	top: 180px;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .overall-page-skeleton .card-inside3-skeleton {
+	width: 350px;
+	height: 12px;
+	position: absolute;
+	display: inline-block;
+	right: 25px;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .overall-page-skeleton .animate {
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+	background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -1000px 0;
+	}
+
+	100% {
+		background-position: 1000px 0;
+	}
+}
+/*********** Over All Skeleton Css ***********/
+/*********** Inside Skeleton Css ************/
+.form-page-skeleton .content-h {
+	width: 400px;
+	height: 12px;
+	position: relative;
+	display: block;
+	top: 0;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .content-p {
+	width: 350px;
+	height: 12px;
+	position: relative;
+	display: inline-block;
+	top: 8px;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .content-p-length {
+	width: 600px;
+	height: 12px;
+	position: relative;
+	display: inline-block;
+	top: 8px;
+	bottom: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .content-img {
+	width: 100px;
+	height: 65px;
+	background: #ccc;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .form-input-skeleton {
+	width: 100%;
+	height: 47px;
+	position: relative;
+	background: #8d8d8d;
+	border-radius: 7px;
+	margin-bottom: 8px;
+}
+
+.form-page-skeleton .verification-code--inputs .input-box {
+	border: 0px solid #c7c7c7;
+	width: 46px;
+	height: 46px;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 5px;
+	border-radius: 7px;
+}
+
+.form-page-skeleton .cursor-none {
+	cursor: none;
+}
+
+.form-page-skeleton .credit-card {
+	width: 302px;
+	height: 193px;
+	position: relative;
+	margin: 0 auto;
+	background: #8d8d8d;
+	border-radius: 25px;
+}
+
+.form-page-skeleton .submit-circle {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	background: #8d8d8d;
+	border-radius: 50%;
+}
+
+.form-page-skeleton .btn-skeleton {
+	box-shadow: none;
+}
+
+.form-page-skeleton .tab-active-skeleton {
+	width: 165px !important;
+	height: 48px !important;
+	position: relative;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.form-page-skeleton .tab-heading-skeleton {
+	width: 165px;
+	height: 12px;
+	position: relative;
+	top: 20px;
+	background: #8d8d8d;
+	border-radius: 5px;
+	margin: 0px 25px;
+}
+
+.form-page-skeleton .animate {
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #efefef 4%, #f5f5f5 25%, #f5f5f5 36%);
+	background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -1000px 0;
+	}
+
+	100% {
+		background-position: 1000px 0;
+	}
+}
+/*********** Inside Skeleton Css ************/
+
+/************ Responsive CSS ************/
+
+@media only screen and (max-width: 600px) {
+ 
+	.logo-img {
+		left: 15px !important;
+	}
+
+	.verification-code--inputs input[type="text"] {
+		width: 36px !important;
+		height: 36px !important;
+		margin: 0 !important;
+	}
+
+	.id-proof .select-wrapper input.select-dropdown {
+		width: -webkit-fill-available !important;
+		margin-bottom: 1rem !important;
+	}
+
+	.id-proof .select-wrapper .caret {
+		right: 0 !important;
+	}
+
+	#wiz_billing_city_wrapper {
+		margin-bottom: 2rem !important;
+	}
+  /* .industry-dropdown {
+    margin-bottom: 2rem !important;
+  } */
+  /* .data-class-sm {
+    margin-bottom: 2rem !important;
+  } */
+	#wiz_orginfo_form .input-field.input-outlined {
+		margin-bottom: 2rem !important;
+	}
+
+	.form-m-sm {
+		margin-top: 30px !important;
+	}
+
+	.credit-card-sm {
+		width: 100% !important;
+	}
+
+	.payment-btn-sm {
+		margin-bottom: 20px !important;
+		margin-top: 15px !important;
+	}
+
+	.modal {
+		width: 90% !important;
+	}
+
+	#paymentsignupAfterBtn {
+		margin-top: -35px !important;
+	}
+
+	.card-name-sm {
+		padding-right: 1rem !important;
+	}
+
+	.data-class .select-wrapper input.select-dropdown {
+		width: 93% !important;
+	}
+
+	.data-class .select-wrapper .caret {
+		right: -10px;
+	}
+
+	ul.stepper .step.active::before, ul.stepper .step.done::before {
+		background-color: #06597F;
+	}
+
+	.select2-container--open .select2-dropdown {
+		width: 215px !important;
+	}
+  
+  /********** Skeleton CSS **********/
+	.col-border-right {
+		border-right: 0 !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside1-skeleton {
+		width: 150px !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside2-skeleton {
+		width: 150px !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside3-skeleton {
+		width: 150px !important;
+	}
+
+	.form-page-skeleton .content-h {
+		width: 100% !important;
+		margin-bottom: 15px;
+	}
+
+	.form-page-skeleton .content-p {
+		width: 100% !important;
+	}
+
+	.form-page-skeleton .verification-code--inputs .input-box {
+		width: 38px !important;
+		height: 38px !important;
+		margin: 0 !important;
+	}
+
+	.form-page-skeleton .content-p-length {
+		width: 100% !important;
+	}
+
+	.submit-sk-sm {
+		margin-top: 15px !important;
+	}
+
+	.form-page-skeleton .credit-card {
+		width: 100% !important;
+	}
+
+	.payment-btn-sm {
+		margin-bottom: 15px !important;
+		margin-top: 30px !important;
+	}
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {
+  
+	.logo-img {
+		left: 15px !important;
+	}
+
+	.verification-code--inputs input[type="text"] {
+		width: 41px !important;
+		height: 41px !important;
+		margin: 0 !important;
+	}
+
+	.id-proof .select-wrapper input.select-dropdown {
+		width: 87% !important;
+		margin-bottom: 1rem !important;
+	}
+
+	.id-proof .select-wrapper .caret {
+		right: 12px !important;
+	}
+
+	.data-class .select-wrapper input.select-dropdown {
+		width: 87% !important;
+	}
+
+	.data-class .select-wrapper .caret {
+		right: 12px !important;
+	}
+
+	#wiz_orginfo_form .input-field.input-outlined {
+		margin-bottom: 2rem !important;
+	}
+
+	.modal {
+		width: 90% !important;
+	}
+
+	ul.stepper .step.active::before, ul.stepper .step.done::before {
+		background-color: #06597F;
+	}
+
+  /********** Skeleton CSS **********/
+	.col-border-right {
+		border-right: 0 !important;
+	}
+
+	.form-page-skeleton .verification-code--inputs .input-box {
+		width: 40px !important;
+		height: 40px !important;
+		margin: 0 !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside1-skeleton {
+		width: 200px !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside2-skeleton {
+		width: 200px !important;
+	}
+
+	.form-page-skeleton .overall-page-skeleton .card-inside3-skeleton {
+		width: 200px !important;
+	}
+
+	.submit-sk-sm {
+		margin-top: 15px !important;
+	}
+
+	.payment-btn-sm {
+		margin-bottom: 15px !important;
+		margin-top: 30px !important;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+  #dcc_cont_val_verification-error, #dcc_cont_val_verification_phone-error {
+    top: 75px !important;
+    left: 8px !important;
+  }
+}

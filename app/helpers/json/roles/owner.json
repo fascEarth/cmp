@@ -1,0 +1,163 @@
+[
+   
+    {
+        "pool":true,
+        "poolName":"menu_label_0",
+        "children":[
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_1", 
+            "icon":"branding_watermark",
+            "imageIcon":"elastic-instance.svg",
+            "main":"instance",
+            "uriAddr":false,  
+            "tabs":false,     
+            "submenu":[
+                {
+                    "identiy":"submenu",
+                    "title":"menu_label_2",
+                    "main":"minstance",
+                    "icon":"radio_button_unchecked",
+                    "imageIcon":"dot.svg",                                      
+                    "uriAddr":"minstance",
+                    "listuriAddr":["minstancedetail","minstancetest"],
+                    "submenu":false,
+                    "tabs":false
+                },
+                {
+                    "identiy":"submenu",
+                    "title":"menu_label_3",
+                    "icon":"radio_button_unchecked",
+                    "imageIcon":"dot.svg",                  
+                    "main":"cinstance",
+                    "uriAddr":"cinstance",
+                    "submenu":false,
+                    "tabs":false
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_4",
+        "children":[
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_5", 
+            "imageIcon":"internetbandwidth.svg",
+            "icon":"description",
+            "main":"internetbandwidth",
+            "uriAddr":"internetbandwidth",       
+            "submenu":false,
+            "tabs":false
+            }            
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_6",
+        "children":[
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_7", 
+            "imageIcon":"currentusage.svg",
+            "icon":"description",
+            "main":"currentusage",
+            "uriAddr":"currentusage",       
+            "submenu":false,
+            "tabs":false
+            },
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_8", 
+            "imageIcon":"invoice.svg",
+            "icon":"description",
+            "main":"invoices",
+            "uriAddr":"invoices",       
+            "submenu":false,
+            "tabs":false
+            },
+            
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_9", 
+            "icon":"credit_card",
+            "imageIcon":"payment.svg",
+            "main":"billingsettings",
+            "uriAddr":"billingsettings",       
+            "submenu":false,
+            "tabs":[
+                "Payment Method",
+                "Billing Address",
+                "Billing Contact"
+            ]
+            }            
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_10",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_11", 
+            "icon":"person",
+            "imageIcon":"account.svg",
+            "main":"account",
+            "uriAddr":"account",       
+            "submenu":false,
+            "tabs":[
+                "My Profile",
+                "Organization",
+                "User Management",
+                "Teams",
+                "Tags"
+            ]
+            },
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_12", 
+            "icon":"security",
+            "imageIcon":"shield.svg",
+            "main":"security",
+            "uriAddr":"security",       
+            "submenu":false,
+            "tabs":[
+                "Modify Password",
+                "Multi Factor Auth",
+                "SSH Keys",
+                "My Activity",
+                "Audit Logs"
+            ]
+            }
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_13",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_14", 
+            "icon":"help",
+            "imageIcon":"support.svg",
+            "main":"support",
+            "uriAddr":"support",       
+            "submenu":false,
+            "tabs":false
+            },
+           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_15", 
+            "main":"faq",
+            "icon":"chat_bubble",
+            "imageIcon":"faq.svg",
+            "uriAddr":false,       
+            "submenu":false,
+            "tabs":false
+            }
+        ]
+    }
+]

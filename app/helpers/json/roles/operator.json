@@ -1,0 +1,90 @@
+[
+    
+    {
+        "pool":true,
+        "poolName":"menu_label_0",
+        "children":[
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_1", 
+            "icon":"branding_watermark",
+            "imageIcon":"elastic-instance.svg",
+            "main":"instance",
+            "uriAddr":false,  
+            "tabs":false,     
+            "submenu":[
+                {
+                    "identiy":"submenu",
+                    "title":"menu_label_2",
+                    "icon":"radio_button_unchecked",
+                    "imageIcon":"dot.svg",                  
+                    "uriAddr":"minstance",
+                    "listuriAddr":["minstancedetail","minstancetest"],
+                    "main":"minstance",
+                    "submenu":false,
+                    "tabs":false
+                }
+            ]
+            }
+        ]
+    },   
+    {
+        "pool":true,
+        "poolName":"menu_label_10",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_11", 
+            "icon":"person",
+            "imageIcon":"account.svg",
+            "main":"account",
+            "uriAddr":"account",       
+            "submenu":false,
+            "tabs":[
+                "My Profile"
+            ]
+            },
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_12", 
+            "icon":"security",
+            "imageIcon":"shield.svg",
+            "main":"security",
+            "uriAddr":"security",       
+            "submenu":false,
+            "tabs":[
+                "Modify Password",
+                "Multi Factor Auth",                
+                "My Activity"                
+            ]
+            }
+        ]
+    },
+    {
+        "pool":true,
+        "poolName":"menu_label_13",
+        "children":[           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_14", 
+            "icon":"help",
+            "imageIcon":"support.svg",
+            "main":"support",
+            "uriAddr":"support",       
+            "submenu":false,
+            "tabs":false
+            },
+           
+            {
+                "identity":"mainmenu",
+            "title":"menu_label_15", 
+            "icon":"chat_bubble",
+            "imageIcon":"faq.svg",
+            "main":"faq",
+            "uriAddr":false,       
+            "submenu":false,
+            "tabs":false
+            }
+        ]
+    }
+]

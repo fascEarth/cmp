@@ -1,0 +1,112 @@
+{
+    "minsD_back_btn":"Back",
+    "minsD_selany_btn":"Select Any",
+
+    "minsD_tbl_vm_status_0":"Provisioning",
+    "minsD_tbl_vm_status_1":"Powered OFF",
+    "minsD_tbl_vm_status_2":"Powered ON",
+    "minsD_tbl_vm_status_3":"Shutdown OS",
+    "minsD_tbl_vm_status_4":"Power Reset",
+    "minsD_tbl_vm_status_5":"Suspend",
+
+    "minsD_topc_label_0":"VM Console",
+    "minsD_topc_label_1":"Created On",
+    "minsD_topc_label_2":"Owner",
+    "minsD_topc_label_3":"Team",
+    "minsD_topc_label_4":"OS",
+    "minsD_topc_label_5":"Tags",
+    "minsD_topc_label_6":"vCPU",
+    "minsD_topc_label_7":"Storage",
+    "minsD_topc_label_8":"Memory",
+    "minsD_topc_label_9":"Network",
+    "minsD_topc_label_10":"IP Address",
+    "minsD_topc_label_11":"SSH Cmd",
+    "minsD_topc_label_12":"ACTIONS",
+    "minsD_topc_label_13":"Private IP",
+    "minsD_topc_label_14":"Public IP",
+    "minsD_topc_label_15":"Copy to clipboard",
+    "minsD_topc_label_16":"Copied",
+
+    "minsD_gen_vm_action_0":"Power On",
+    "minsD_gen_vm_action_1":"Power Off",
+    "minsD_gen_vm_action_2":"Shutdown",
+    "minsD_gen_vm_action_3":"Reset",
+    "minsD_gen_vm_action_4":"Suspend",
+    "minsD_gen_vm_action_5":"Delete",
+    "minsD_gen_vm_action_6":"View Details",
+
+    "minsD_gen_main_tab_title_0":"Overview",
+    "minsD_gen_main_tab_title_1":"Usage Graphs",
+    "minsD_gen_main_tab_title_2":"Storage",
+    "minsD_gen_main_tab_title_3":"Snapshots",
+    "minsD_gen_main_tab_title_4":"Settings",
+
+    "minsD_gen_overview_tab_title":"Current Usage of Virtual machine performance and resource consumption.",
+    "minsD_gen_overview_tab_cpumem_label_0":"CPU & Memory",
+    "minsD_gen_overview_tab_cpumem_label_1":"Average CPU",
+    "minsD_gen_overview_tab_cpumem_label_2":"Maximum CPU",
+    "minsD_gen_overview_tab_cpumem_label_3":"Average CPU (Mhz)",
+    "minsD_gen_overview_tab_cpumem_label_4":"Average Memory",
+
+    
+    "minsD_gen_overview_tab_storage_label_0":"Storage Provisioned",
+    "minsD_gen_overview_tab_storage_label_1":"Disk Provisioned",
+
+    "minsD_gen_overview_tab_drw_label_0":"Average Disk Read / Write (KBps)",
+    "minsD_gen_overview_tab_drw_label_1":"Average Read Speed",
+    "minsD_gen_overview_tab_drw_label_2":"Average Write Speed",
+
+    "minsD_gen_usagegraph_tab_title":"Virtual machine performance and resource consumption.",
+
+    "minsD_gen_usagegraph_tab_sel_0":"Select",
+    "minsD_gen_usagegraph_tab_sel_1":"Last 1 Hour",
+    "minsD_gen_usagegraph_tab_sel_2":"Last 24 Hours",
+    "minsD_gen_usagegraph_tab_sel_3":"Last 7 Days",
+    "minsD_gen_usagegraph_tab_sel_4":"Last 30 Days",
+
+    "minsD_gen_usagegraph_tab_graph_label_0":"Average CPU Usage (%)",
+    "minsD_gen_usagegraph_tab_graph_label_1":"Maximum CPU Usage (%)",
+    "minsD_gen_usagegraph_tab_graph_label_2":"Average CPU Usage (MHz)",
+    "minsD_gen_usagegraph_tab_graph_label_3":"Average Memory Usage (%)",
+    "minsD_gen_usagegraph_tab_graph_label_4":"Average Read Speed (KBPS)",
+    "minsD_gen_usagegraph_tab_graph_label_5":"Average Write Speed (KBPS)",
+
+    "minsD_gen_usagegraph_tab_graph_keyLabel_0":"CPU Average",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_1":"CPU Maximum",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_2":"CPU MHz Average",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_3":"Memory Average",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_4":"Disk R average",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_5":"Disk W average",
+    "minsD_gen_usagegraph_tab_graph_keyLabel_6":"Date",
+
+    "minsD_gen_storage_tab_title":"Attach additional storage to your VM Instance.",
+    "minsD_gen_storage_tab_label_0":"Additional Disk",
+    "minsD_gen_storage_tab_label_1":"Disk",
+    "minsD_gen_storage_tab_label_2":"Type",
+    "minsD_gen_storage_tab_label_3":"Size",
+    "minsD_gen_storage_tab_label_4":"Cost",
+    "minsD_gen_storage_tab_label_5":"Action",
+    "minsD_gen_storage_tab_label_6":"SUBMIT",
+    "minsD_gen_storage_tab_label_7":"Processing Please Wait ...",
+
+    
+    "minsD_gen_snapshot_tab_label_0":"Snapshots can take more time depends on per GB of data used by your VM. Snapshots cost",
+    "minsD_gen_snapshot_tab_label_1":"based on the size of the snapshot.We recommend turning off your VM",
+    "minsD_gen_snapshot_tab_label_2":"before taking a snapshot to ensure data consistency.",
+    "minsD_gen_snapshot_tab_label_3":"CREATE SNAPSHOT",
+    "minsD_gen_snapshot_tab_label_4":"Creating Snapshots",
+    "minsD_gen_snapshot_tab_label_5":"Last snapshot created on",
+    "minsD_gen_snapshot_tab_label_6":"Last snapshot created by",
+    "minsD_gen_snapshot_tab_label_7":"REVERT TO SNAPSHOT",
+    "minsD_gen_snapshot_tab_label_8":"REMOVE SNAPSHOT",
+    "minsD_gen_snapshot_tab_label_9":"Reverting snapshots",
+    "minsD_gen_snapshot_tab_label_10":"Removing snapshots",
+
+    "minsD_gen_toastr_msg_0":"Error Occured! Contact Administrator.",
+    "minsD_gen_toastr_msg_1":"Storages submitted successfully!",
+    "minsD_gen_toastr_msg_2":"Snapshot created successfully!",
+    "minsD_gen_toastr_msg_3":"Snapshot removed successfully!",
+    "minsD_gen_toastr_msg_4":"Snapshot reverted successfully!"
+
+
+}
